@@ -1,0 +1,30 @@
+//
+// Variables
+// --------------------------------------------------
+
+// Lost Grid v5.1.6 - https://github.com/corysimmons/lost
+
+$gutter: 25px;
+$rtl: false;
+$flexbox: true;
+
+//== Media queries breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+
+// Extra small screen / phone
+$screen-xs-min:              320px;
+// Small screen / tablet
+$screen-sm-min:              768px;
+// Medium screen / desktop
+$screen-md-min:              1024px;
+// Large screen / wide desktop
+$screen-lg-min:              1280px;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm-min - 1);
+$screen-sm-max:              ($screen-md-min - 1);
+$screen-md-max:              ($screen-lg-min - 1);
+
+// Colors
+$accent-color: #EAAE3B;

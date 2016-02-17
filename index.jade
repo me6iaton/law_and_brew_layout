@@ -1,0 +1,33 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title Document
+    link(rel='stylesheet', href='css/styles.css')
+  body
+    include svg_sprite/symbol/svg/sprite.symbol.svg
+    .top-bg.top-bg--left
+      img(src='/images/big/img-09.png', alt='')
+    .top-bg.top-bg--right
+      img(src='/images/big/img-10.png', alt='')
+    .menu
+      .menu__fixed
+        .menu__top-space
+        .container
+          .menu__container
+            a.menu__item.menu__item--active(href='')
+              | Viva la craft
+            a.menu__item(href='')
+              | Наше пиво
+            a.menu__item(href='')
+              | Процесс
+            .menu__header
+              include svg/menu_header.svg
+            a.menu__item(href='')
+              | О нас
+            a.menu__item(href='')
+              | Контакты
+            a.button(href='')
+              | заказать
+    .container
+      | test
