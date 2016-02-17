@@ -1,0 +1,23 @@
+{
+  "name": "law_and_brew_layout",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "me6iaton <me6iaton@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "stickyNavbar.js": "^1.3.2",
+    "jquery": "^2.2.0",
+    "jquery-easing-original": "^1.3.2"
+  }
+}

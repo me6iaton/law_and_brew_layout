@@ -1,33 +1,36 @@
 doctype html
-html(lang='en')
+html#ancor_top.scrollto(lang='en')
   head
     meta(charset='UTF-8')
     title Document
     link(rel='stylesheet', href='css/styles.css')
   body
-    include svg_sprite/symbol/svg/sprite.symbol.svg
     .top-bg.top-bg--left
       img(src='/images/big/img-09.png', alt='')
     .top-bg.top-bg--right
       img(src='/images/big/img-10.png', alt='')
     .menu
+      .menu__top-space
       .menu__fixed
-        .menu__top-space
         .container
           .menu__container
-            a.menu__item.menu__item--active(href='')
+            a.menu__item(href='#ancor_top')
               | Viva la craft
-            a.menu__item(href='')
+            a.menu__item(href='#ancor_beer')
               | Наше пиво
-            a.menu__item(href='')
+            a.menu__item(href='#ancor_process')
               | Процесс
             .menu__header
               include svg/menu_header.svg
-            a.menu__item(href='')
+            a.menu__item(href='#ancor_about')
               | О нас
-            a.menu__item(href='')
+            a.menu__item(href='#ancor_contacts')
               | Контакты
-            a.button(href='')
-              | заказать
-    .container
+            a.button(href='#ancor_order')
+              | заказать        
+    #ancor_beer.container.scrollto
       | test
+    script(src="./bower_components/jquery/dist/jquery.js")
+    script(src="./bower_components/jquery-easing-original/jquery.easing.js")
+    script(src="./scripts/jquery.stickyNavbar.js")
+    script(src="./index.js")
