@@ -43,6 +43,7 @@
         mobileWidth: 480, // The viewport width (without scrollbar) under which stickyNavbar will not be applied (due user usability on mobile)
         zindex: 9999, // The zindex value to apply to the element: default 9999, other option is 'auto'
         stickyModeClass: 'sticky', // Class that will be applied to 'this' in sticky mode
+        parentStickyModeClass: 'container-sticky',
         unstickyModeClass: 'unsticky' // Class that will be applied to 'this' in non-sticky mode
       }, prop),
       sections = $('.' + options.sectionSelector);
@@ -138,9 +139,10 @@
           var top = $(this).offset().top - thisHeight,
               bottom = $(this).outerHeight(true) + top;
 
-          //fix-me      
+          //fix-me
           if ((windowPosition >= top) && (windowPosition <= bottom)) {
             if (options.selector === 'a') {
+              // console.log(this.id);
               $self.find('a[href~="#' + this.id + '"]').addClass(options.activeClass);
             } else {
               $self.find('a[href~="#' + this.id + '"]').parent().addClass(options.activeClass);
@@ -153,6 +155,7 @@
 
           // add 'sticky' class to this as soon as 'this' is in sticky mode
           $self.removeClass(options.unstickyModeClass).addClass(' ' + options.stickyModeClass);
+          $self.parent().addClass(options.parentStickyModeClass);
 
           // as soon as scrolling starts set position of this() to fixed
           $self.css({
@@ -196,6 +199,7 @@
             'position': $selfPosition,
             'zIndex': $selfZindex
           }).removeClass(options.stickyModeClass).addClass(' ' + options.unstickyModeClass);
+          $self.parent().removeClass(options.parentStickyModeClass);
         }
 
 

@@ -1,7 +1,15 @@
 .top-bg
   position: absolute
   top: 330px
+  z-index: -1
   &--left
     left: 0px
   &--right
     right: 0px
+
+//  Medium screen / desktop
+@media (max-width: $screen-md-max)
+  .top-bg
+    top: 170px
+    img
+      height: 640px

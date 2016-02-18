@@ -1,14 +1,15 @@
 doctype html
-html#ancor_top.scrollto(lang='en')
+html(lang='en')
   head
     meta(charset='UTF-8')
     title Document
     link(rel='stylesheet', href='css/styles.css')
+    //- meta(content='width=device-width, initial-scale=1', name='viewport')
   body
     .top-bg.top-bg--left
       img(src='/images/big/img-09.png', alt='')
     .top-bg.top-bg--right
-      img(src='/images/big/img-10.png', alt='')
+      img(src='/images/big/img-10.png', alt='')  
     .menu
       .menu__top-space
       .menu__fixed
@@ -27,8 +28,25 @@ html#ancor_top.scrollto(lang='en')
             a.menu__item(href='#ancor_contacts')
               | Контакты
             a.button(href='#ancor_order')
-              | заказать        
+              | заказать                   
+    #ancor_top.container.scrollto
+      .svg
+        .svg__screen_1_icon_frends  
+          include svg/screen_1_icon_frends.svg
+      .svg
+        .svg__screen1_header
+          include svg/screen1_header.svg
+      .svg
+        .svg__screen1_icon_order
+          include svg/screen1_icon_order.svg
+      | test
     #ancor_beer.container.scrollto
+      | test
+    #ancor_process.container.scrollto
+      | test
+    #ancor_about.container.scrollto
+      | test
+    #ancor_contacts.container.scrollto
       | test
     script(src="./bower_components/jquery/dist/jquery.js")
     script(src="./bower_components/jquery-easing-original/jquery.easing.js")

@@ -1,14 +1,20 @@
+$menu__top-space--lg__height: 83px
+$menu__top-space--md__height: 43px
+
+#ancor_top
+  margin-top: -$menu__top-space--lg__height
+  padding-top: $menu__top-space--lg__height
+
 .menu
   &__top-space
-    margin-top: 63px
-  &__fixed
-    width: 100%
-    &--sticky
-      background-color: #000100
-      top: 0px
+    height: $menu__top-space--lg__height
+  &--sticky
+    .menu__top-space
+      height: $menu__top-space--lg__height + 50px
   &__container
     display: flex
     align-items: center
+    padding: 0 20px
   &__item
     font-size: 16px
     color: #fff
@@ -17,7 +23,8 @@
     height: 50px
     display: flex
     align-items: center
-    padding: 0 20px
+    padding: 0 10px
+    margin: 0 10px
     box-sizing: border-box
     &:hover
       color: $accent-color
@@ -29,6 +36,23 @@
     svg
       margin: 0 auto
       display: block
+      margin-top: -20px
+      .a
+        fill: #eaae3b
+      .b
+        fill: #fff
+
+.menu__fixed
+    width: 100%
+    &--sticky
+      background-color: #000100
+      top: 0px
+      svg
+        height: 25px
+        margin-top: 0
+    &--unsticky
+      // position: static !important
+
 
 .button
   display: flex
@@ -42,3 +66,19 @@
   border: 2px solid $accent-color
   height: 50px
   box-sizing: border-box
+
+
+//  Medium screen / desktop
+@media (max-width: $screen-md-max)
+  #ancor_top
+    margin-top: -$menu__top-space--md__height
+    padding-top: $menu__top-space--md__height
+  .menu
+    &__top-space
+      height: $menu__top-space--md__height
+    &--sticky
+      .menu__top-space
+        height: $menu__top-space--md__height + 50px
+    &__header
+      svg
+        width: 200px
