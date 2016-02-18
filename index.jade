@@ -44,9 +44,50 @@ html(lang='en')
     #ancor_beer.container.scrollto
       | test
     #ancor_process.container.scrollto
-      | test
+      .process
+        .process__row
+          .process__box
+            h3 
+              | Стирильность
+              br
+              | производства    
+            .process_icon
+              include svg/screen_3_icon_sterility.svg
+            .process_desc
+              | Процесс варки, ферментациии и разлития пива находятся под строжайшим контролем.  
+          .process__box
+            h3  
+              | Импортные
+              br
+              | ингредиенты    
+            .process_icon
+              include svg/screen_3_icon_import.svg
+            .process_desc
+              | Солод закупается из Финляндии. Хмель преимущественно Американский. 
+        .process__row
+          .process__order
+            include svg/border_mask.svg
+            .process__row
+              .process__box
+                h3 
+                  | Оригинальные
+                  br
+                  | рецептуры    
+                .process_icon
+                  include svg/screen_3_icon_sterility.svg
+                .process_desc
+                  | Мы варим пиво по оригинальным рецептурам со строгим соблюдением всех нормативов. 
+              .process__box
+                h3  
+                  | Натуральное
+                  br
+                  | сырье    
+                .process_icon
+                  include svg/screen_3_icon_import.svg
+                .process_desc
+                  | Все ингредиенты имеют растительное происхождение. Без красителей и ароматизаторов.          
     #ancor_about.container.scrollto
-      | test
+      | gfhh
     #ancor_contacts.container.scrollto
       | test
     script(src="./bower_components/jquery/dist/jquery.js")
