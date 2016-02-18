@@ -16,7 +16,8 @@ html(lang='en')
         .container
           .menu__container
             a.menu__item(href='#ancor_top')
-              | Viva la craft
+              span.visible--lg-inline-block Viva la
+              span craft
             a.menu__item(href='#ancor_beer')
               | Наше пиво
             a.menu__item(href='#ancor_process')
@@ -30,16 +31,16 @@ html(lang='en')
             a.button(href='#ancor_order')
               | заказать                   
     #ancor_top.container.scrollto
-      .svg
-        .svg__screen_1_icon_frends  
+      .top
+        .top__frends
           include svg/screen_1_icon_frends.svg
-      .svg
-        .svg__screen1_header
+        .top__header
           include svg/screen1_header.svg
-      .svg
-        .svg__screen1_icon_order
+        .top__order
           include svg/screen1_icon_order.svg
-      | test
+        .top__next
+          h2 ассортимент
+          include svg/arrow_bottom.svg  
     #ancor_beer.container.scrollto
       | test
     #ancor_process.container.scrollto

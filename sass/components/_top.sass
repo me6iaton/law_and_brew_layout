@@ -1,0 +1,100 @@
+.top
+  display: flex
+  margin-top: 120px
+  align-items: center
+  justify-content: center
+  flex-wrap: wrap
+  &__frends
+    svg
+      .a, .b, .c
+        fill: none
+        stroke: #eaae3b
+        stroke-linecap: round
+        stroke-linejoin: round
+      .a
+        stroke-width: 2px
+      .c
+        stroke-width: 2px
+        fill-rule: evenodd
+      .d
+        fill: #eaae3b
+      .e
+        fill: #fff
+  &__header
+    flex-grow: 1
+    svg
+      display: block
+      margin: 0 auto
+      .a, .g
+        fill: #fff
+      .a
+        opacity: 0.95
+      .b, .c, .d, .e
+        fill: none
+        stroke: #eaae3b
+        stroke-linecap: round
+        stroke-linejoin: round
+      .b
+        fill-rule: evenodd
+      .d
+        fill-rule: evenodd
+        stroke-width: 2px
+      .e
+        stroke-width: 2px
+      .f
+        fill: #eaae3b
+  &__order
+    svg
+      .a, .b, .c
+        fill: none
+        stroke: #eaae3b
+        stroke-linecap: round
+        stroke-linejoin: round
+      .a
+        stroke-width: 2px
+      .c
+        stroke-width: 2px
+        fill-rule: evenodd
+      .d
+        fill: #fff
+      .e
+        fill: #eaae3b
+  &__next
+    width: 100%
+    text-align: center
+    h2
+      font-family: "Gotham Pro"
+      font-size: 14px
+      font-weight: bold
+      text-transform: uppercase
+      color: #fff
+      font-kerning: normal
+
+//  Medium screen / desktop
+@media (max-width: $screen-md-max)
+  .top
+    margin-top: 50px
+    max-width: 860px
+    margin-left: auto
+    margin-right: auto
+    justify-content: space-around
+    &__frends
+      padding-top: 50px
+      svg
+        width: 175px
+        display: block
+        rect.d
+          display: none
+    &__header
+      flex-grow: 0
+      svg
+        width: 551px - 135px
+    &__order
+      padding-top: 50px
+      svg
+        width: 175px
+        display: block
+        rect.e
+          display: none
+    &__next
+      margin-top: 80px
