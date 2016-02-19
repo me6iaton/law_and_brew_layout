@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10.9956" height="10.9956" viewBox="0 0 10.9956 10.9956">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #eaae3b;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <title>li_rhombus</title>
+  <rect class="a" x="405.41692" y="6809.31738" width="6.36085" height="6.36085" transform="translate(-4522.74364 5111.58315) rotate(-135)"/>
+</svg>

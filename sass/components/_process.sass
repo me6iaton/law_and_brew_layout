@@ -71,6 +71,54 @@
       width: calc(100% + 30px)
       margin-left: -20px
 
+  &__screen-time
+    margin-top: 320px
+    .process__row
+      margin-top: 100px
+  &__clock
+    text-align: center
+    .a, .b
+      fill: none
+      stroke: #eaae3b
+      stroke-linecap: round
+      stroke-linejoin: round
+    .a
+      stroke-width: 2px
+  &__time
+    @include column($fraction: '1/3', $gut: 0px)
+    h3
+      font-family: 'Gotham Pro'
+      font-size: 30px
+      text-transform: uppercase
+      font-weight: normal
+      color: $accent-color
+      margin: 0
+      margin-top: 20px
+      text-align: center
+      font-kerning: normal
+    h4
+      font-family: 'Gotham Pro'
+      font-size: 15px
+      text-transform: uppercase
+      font-weight: normal
+      margin: 0
+      color: $text-color
+      text-align: center
+      font-kerning: normal
+    &--single
+      width: 100%
+      h3, h4
+        text-align: center
+      h3
+        font-size: 57px
+        margin: 0
+      h4
+        margin-top: 35px
+        &:last-child
+          margin-top: 20px
+
+
+
 // //  Medium screen / desktop
 @media (max-width: $screen-md-max)
   .process
@@ -92,3 +140,5 @@
       .border-box
         width: calc(100% + 110px)
         margin-left: -64px
+    &__screen-time
+      margin-top: 220px

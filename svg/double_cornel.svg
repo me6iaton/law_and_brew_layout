@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47.38917" height="47.38917" viewBox="0 0 47.38917 47.38917">
+  <defs>
+    <style>
+      .a, .b {
+        fill: none;
+        stroke: #eaae3b;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .a {
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <title>double_cornel</title>
+  <g>
+    <rect class="a" x="323.01842" y="6507.95393" width="6.36085" height="6.36085" transform="translate(-4358.41017 4867.2482) rotate(-135)"/>
+    <path class="a" d="M312.19917,6479.61083A45.38917,45.38917,0,0,1,357.58834,6525" transform="translate(-311.19917 -6478.61083)"/>
+    <path class="b" d="M322.19917,6494.16821a32.36657,32.36657,0,0,1,20.832,20.96582" transform="translate(-311.19917 -6478.61083)"/>
+  </g>
+</svg>

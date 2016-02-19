@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="442" height="26.06299" viewBox="0 0 442 26.06299">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #eaae3b;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <title>quote</title>
+  <polyline class="a" points="1 1 109 1 109 25.063 129 1 441 1"/>
+</svg>
