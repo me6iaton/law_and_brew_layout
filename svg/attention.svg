@@ -1,16 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="126.99975" height="126.99975" viewBox="0 0 126.99975 126.99975">
   <defs>
     <style>
-      .a, .b {
-        fill: none;
-        stroke: #eaae3b;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-      }
-
-      .a {
-        stroke-width: 2px;
-      }
     </style>
   </defs>
   <title>attention</title>

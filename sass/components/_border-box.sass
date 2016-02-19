@@ -39,6 +39,7 @@ $border-box__cornel___position: 5px
     color: $accent-color
     margin: 0
     text-align: center
+    font-weight: normal
   &__sub-header
     font-family: 'Gotham Pro'
     font-weight: bold
@@ -47,3 +48,41 @@ $border-box__cornel___position: 5px
     color: $text-color
     font-kerning: normal
     text-align: center
+
+.border-box--double
+  box-shadow: none
+  background-color: transparent
+  padding: 57px 40px
+  .border-box
+    &__cornel
+      &:nth-child(1)
+        top: -4px
+        left: -2px
+      &:nth-child(2)
+        top: -4px
+        right: -2px
+      &:nth-child(3)
+        bottom: -4px
+        left: -2px
+      &:nth-child(4)
+        right: -2px
+        bottom: -4px
+    &__header
+      text-transform: lowercase
+      color: $text-color
+      &::first-letter
+        text-transform: uppercase
+    &__quote
+      display: flex
+      height: 70px
+      justify-content: center
+      svg
+        align-self: center
+        .a
+          fill: #eaae3b
+    &__desc
+      font-family: 'Anglecia Pro Display'
+      font-style: italic
+      font-size: 24px
+      text-align: center
+      color: $accent-color

@@ -136,7 +136,39 @@ html(lang='en')
               h4 50 % — предоплата
               h4 50 % — курьеру
     #ancor_about.container.scrollto
-      | gfhh
+      .about
+        .about__col
+          .border-box.border-box--double
+            .border-box__cornel
+              include svg/double_cornel.svg
+            .border-box__cornel
+              include svg/double_cornel.svg
+            .border-box__cornel
+              include svg/double_cornel.svg
+            .border-box__cornel
+              include svg/double_cornel.svg
+            .border-box__header
+              | Юристпруденция и пиво
+            .border-box__sub-header
+              | а это вообще совмещают ?
+            .border-box__quote
+              include svg/box_quote.svg
+            .border-box__desc
+              | Пожалуй, это самый популярный вопрос к нам за те полгода, что мы варим пиво в Петербурге.
+        .about__col
+          .about__fixed
+            .about__citation
+              h4 Law & Brew за здоровый образ жизни
+              p
+                | Напоминаем, что чрезмерное употребление алкогольной продукции вредит вашему здоровью!
+              .about__quote
+                include svg/quote.svg
+            .about__attention
+              include svg/attention.svg    
+                
+                      
+            
+                    
     #ancor_contacts.container.scrollto
       | test
     script(src="./bower_components/jquery/dist/jquery.js")
