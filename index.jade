@@ -45,47 +45,70 @@ html(lang='en')
       | test
     #ancor_process.container.scrollto
       .process
+        .screen-head
+          .screen-head__rhombus
+            include svg/rhombus.svg
+          h2.screen-head__header Процесс приготовления
+          .screen-head__rhombus
+            include svg/rhombus.svg
+          h4.screen-head__sub-header ничего секретного
         .process__row
           .process__box
             h3 
               | Стирильность
               br
               | производства    
-            .process_icon
+            .process__icon.process__icon--sterility
               include svg/screen_3_icon_sterility.svg
-            .process_desc
-              | Процесс варки, ферментациии и разлития пива находятся под строжайшим контролем.  
+            .process__desc
+              | Процесс варки, ферментациии и <br> разлития пива находятся под <br> строжайшим контролем.  
           .process__box
             h3  
               | Импортные
               br
               | ингредиенты    
-            .process_icon
+            .process__icon.process__icon--import
               include svg/screen_3_icon_import.svg
-            .process_desc
-              | Солод закупается из Финляндии. Хмель преимущественно Американский. 
+            .process__desc
+              | Солод закупается из Финляндии. <br> Хмель преимущественно <br> Американский. 
         .process__row
+          .process__rhombus
+            include svg/rhombus.svg
           .process__order
-            include svg/border_mask.svg
-            .process__row
-              .process__box
-                h3 
-                  | Оригинальные
-                  br
-                  | рецептуры    
-                .process_icon
-                  include svg/screen_3_icon_sterility.svg
-                .process_desc
-                  | Мы варим пиво по оригинальным рецептурам со строгим соблюдением всех нормативов. 
-              .process__box
-                h3  
-                  | Натуральное
-                  br
-                  | сырье    
-                .process_icon
-                  include svg/screen_3_icon_import.svg
-                .process_desc
-                  | Все ингредиенты имеют растительное происхождение. Без красителей и ароматизаторов.          
+            .border-box
+              .border-box__cornel
+                include svg/single_cornel.svg
+              .border-box__cornel
+                include svg/single_cornel.svg
+              .border-box__cornel
+                include svg/single_cornel.svg
+              .border-box__cornel
+                include svg/single_cornel.svg
+              .border-box__header
+                | закажи пиво
+              .border-box__sub-header
+                | прямо сейчас   
+          .process__rhombus
+            include svg/rhombus.svg
+        .process__row
+          .process__box
+            h3 
+              | Оригинальные
+              br
+              | рецептуры    
+            .process__icon.process__icon--recept
+              include svg/screen_3_icon_recept.svg
+            .process__desc
+              | Мы варим пиво по оригинальным <br> рецептурам со строгим <br> соблюдением всех нормативов. 
+          .process__box
+            h3  
+              | Натуральное
+              br
+              | сырье    
+            .process__icon.process__icon--natural
+              include svg/screen_3_icon_natural.svg
+            .process__desc
+              | Все ингредиенты имеют <br> растительное происхождение. <br> Без красителей и ароматизаторов.          
     #ancor_about.container.scrollto
       | gfhh
     #ancor_contacts.container.scrollto

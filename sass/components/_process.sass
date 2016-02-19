@@ -4,11 +4,91 @@
   background-repeat: no-repeat
   background-position: center top
   background-size: 405px
+  padding-top: 100px
+  &__row
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-top: 50px
+    &:nth-child(2)
+      margin-top: 145px
+  &__box
+    @include column($fraction: '1/3', $gut: 30px)
+    text-align: center
+    h3
+      font-family: 'Anglecia Pro Display'
+      font-size: 38px
+      color: #fff
+      font-weight: normal
+      font-kerning: normal
+      margin: 0
+  &__desc
+    font-family: 'Anglecia Pro Display'
+    font-style: italic
+    font-size: 18px
+    color: $accent-color
+    margin-top: 40px
+  &__icon
+    margin-top: 40px
+    &--sterility,
+    &--recept,
+      .a, .b
+        fill: none
+        stroke: #eaae3b
+        stroke-linecap: round
+        stroke-linejoin: round
+      .a
+        stroke-width: 2px
+    &--import
+      .a
+        fill: none
+        stroke: #eaae3b
+        stroke-linecap: round
+        stroke-linejoin: round
+      .b
+        fill: none
+        stroke: #eaae3b
+        stroke-linecap: round
+        stroke-linejoin: round
+        stroke-width: 2px
+    &--natural
+      .a
+        fill: none
+        stroke: #eaae3b
+        stroke-linecap: round
+        stroke-linejoin: round
+        stroke-width: 2px
+  &__rhombus
+    @include column($fraction: '1/3', $gut: 30px)
+    text-align: center
+    .a
+      fill: #eaae3b
   &__order
-    .cls-1, .cls-2
-      fill: none
-      stroke: #eaae3b
-      stroke-linecap: round
-      stroke-linejoin: round
-    .cls-1
-      stroke-width: 2px
+    @include column($fraction: '1/3', $gut: 30px)
+    position: relative
+    .border-box
+      box-sizing: border-box
+      width: calc(100% + 30px)
+      margin-left: -20px
+
+// //  Medium screen / desktop
+@media (max-width: $screen-md-max)
+  .process
+    background-size: 320px
+    padding-top: 80px
+    &__row
+      margin-top: 40px
+      &:nth-child(2)
+        margin-top: 60px
+    &__box
+      h3
+        font-size: 28px
+    &__desc
+      font-size: 14px
+      margin-top: 30px
+    &__icon
+      margin-top: 30px
+    &__order
+      .border-box
+        width: calc(100% + 110px)
+        margin-left: -64px

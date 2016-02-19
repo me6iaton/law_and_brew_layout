@@ -1,0 +1,49 @@
+$border-box__cornel___position: 5px
+
+.border-box
+  position: relative
+  background-color: $box-color
+  display: block
+  border: 2px solid $accent-color
+  box-shadow: 0 0 0 7px $box-color
+  padding: 40px 65px
+  &__cornel
+    display: inline-block
+    position: absolute
+    &:nth-child(1)
+      transform: rotate(90deg)
+      top: $border-box__cornel___position
+      left: $border-box__cornel___position
+    &:nth-child(2)
+      top: $border-box__cornel___position
+      right: $border-box__cornel___position
+      transform: rotate(180deg)
+    &:nth-child(3)
+      bottom: $border-box__cornel___position
+      left: $border-box__cornel___position
+    &:nth-child(4)
+      right: $border-box__cornel___position
+      bottom: $border-box__cornel___position
+      transform: rotate(270deg)
+    .a, .b
+      fill: none
+      stroke: #eaae3b
+      stroke-linecap: round
+      stroke-linejoin: round
+      stroke-width: 2px
+  &__header
+    font-family: 'Anglecia Pro Display'
+    font-size: 38px
+    text-transform: uppercase
+    font-kerning: normal
+    color: $accent-color
+    margin: 0
+    text-align: center
+  &__sub-header
+    font-family: 'Gotham Pro'
+    font-weight: bold
+    font-size: 15px
+    margin-top: 10px
+    color: $text-color
+    font-kerning: normal
+    text-align: center
