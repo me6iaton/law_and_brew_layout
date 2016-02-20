@@ -4,7 +4,7 @@ html(lang='en')
     meta(charset='UTF-8')
     title Document
     link(rel='stylesheet', href='css/styles.css')
-    //- meta(content='width=device-width, initial-scale=1', name='viewport')
+    meta(content='width=device-width, initial-scale=1', name='viewport')
   body
     .top-bg.top-bg--left
       img(src='/images/big/img-09.png', alt='')
@@ -16,7 +16,8 @@ html(lang='en')
         .container
           .menu__container
             a.menu__item(href='#ancor_top')
-              span.visible--lg-inline-block Viva la <span> craft</span>
+              span.visible--lg-inline-block Viva la
+              span craft
             a.menu__item(href='#ancor_beer')
               | Наше пиво
             a.menu__item(href='#ancor_process')
@@ -41,7 +42,48 @@ html(lang='en')
           h2 ассортимент
           include svg/arrow_bottom.svg  
     #ancor_beer.container.scrollto
-      | test
+      .beer
+        .beer__arrow.beer__arrow--left
+          include svg/arrow_left.svg
+        .beer__container
+          .beer__slide
+            .beer__col
+              .beer__big-glass
+                img(src="/images/big/img-21.png")      
+            .beer__col
+              .border-box.border-box--double
+                include jade/chunks/double_cornels.jade
+                .border-box__header
+                  | Бертель IPA Amarillo
+                .border-box__sub-header
+                  | наш самый первый эль
+                .border-box__quote
+                  include svg/box_quote.svg
+                .border-box__desc
+                  | Ароматный эль на с сильным охмелением cascade, с добавлением цедры апельсина и кориандра              
+              .beer__rack
+                .beer__small-glass.beer__small-glass--active
+                  img(src="/images/img-14.png")  
+                .beer__small-glass
+                  img(src="/images/img-15.png")  
+          .beer__slide
+            .beer__col
+              .beer__big-glass
+                img(src="/images/big/img-22.png")      
+            .beer__col
+              .border-box.border-box--double
+                include jade/chunks/double_cornels.jade
+                .border-box__header
+                  | Бертель IPA Amarillo
+                .border-box__sub-header
+                  | наш самый первый эль
+                .border-box__quote
+                  include svg/box_quote.svg
+                .border-box__desc
+                  | Ароматный эль на с сильным охмелением cascade, с добавлением цедры апельсина и кориандра                            
+          .beer__slide
+        .beer__arrow.beer__arrow--right
+          include svg/arrow_right.svg
     #ancor_process.container.scrollto
       .process
         .screen-head
@@ -77,14 +119,7 @@ html(lang='en')
             include svg/rhombus.svg
           .process__order
             .border-box
-              .border-box__cornel
-                include svg/single_cornel.svg
-              .border-box__cornel
-                include svg/single_cornel.svg
-              .border-box__cornel
-                include svg/single_cornel.svg
-              .border-box__cornel
-                include svg/single_cornel.svg
+              include jade/chunks/single_cornels.jade
               .border-box__header
                 | закажи пиво
               .border-box__sub-header
@@ -134,19 +169,13 @@ html(lang='en')
               h3 ≈ 1 месяц          
               h4 50 % — предоплата
               h4 50 % — курьеру
+    //- #ancor_about
     .container
       .about
         .about__col
           #ancor_about.scrollto
             .border-box.border-box--double
-              .border-box__cornel
-                include svg/double_cornel.svg
-              .border-box__cornel
-                include svg/double_cornel.svg
-              .border-box__cornel
-                include svg/double_cornel.svg
-              .border-box__cornel
-                include svg/double_cornel.svg
+              include jade/chunks/double_cornels.jade
               .border-box__header
                 | Юристпруденция и пиво
               .border-box__sub-header
@@ -166,6 +195,7 @@ html(lang='en')
                 | Которые по предварительному сговору решили варить отличное крафтовое пиво для себя и своих друзей. 
             p.about__paragraph  
               | Мы профессиональные юристы, пивоварение для нас является хобби, которым мы занимаемся регулярно и с большим желанием, что собственно и отображается в нашем названии. Поэтому в каждом нашем пиве имеется намек на юридические термины и обозначения.  
+          //- #ancor_contacts
           #ancor_contacts.scrollto
             h3.about__header
               | Касательно продукции
@@ -191,14 +221,7 @@ html(lang='en')
               | 8 (981) 844-07-11
             .about__order
               .border-box
-                .border-box__cornel
-                  include svg/single_cornel.svg
-                .border-box__cornel
-                  include svg/single_cornel.svg
-                .border-box__cornel
-                  include svg/single_cornel.svg
-                .border-box__cornel
-                  include svg/single_cornel.svg
+                include jade/chunks/single_cornels.jade
                 .border-box__header
                   | закажи пиво
                 .border-box__sub-header

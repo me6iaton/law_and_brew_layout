@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="299.91" height="236.66" viewBox="0 0 299.91 236.66">
+  <defs>
+    <style>
+      .a {
+        fill: url(#a);
+      }
+
+      .b {
+        opacity: 0.39;
+        fill: url(#b);
+      }
+
+      .c {
+        fill: url(#c);
+      }
+
+      .d, .g, .j, .m, .p, .s, .v {
+        opacity: 0.43;
+      }
+
+      .d {
+        fill: url(#d);
+      }
+
+      .e {
+        fill: url(#e);
+      }
+
+      .f {
+        fill: url(#f);
+      }
+
+      .g {
+        fill: url(#g);
+      }
+
+      .h {
+        fill: url(#h);
+      }
+
+      .i {
+        fill: url(#i);
+      }
+
+      .j {
+        fill: url(#j);
+      }
+
+      .k {
+        fill: url(#k);
+      }
+
+      .l {
+        fill: url(#l);
+      }
+
+      .m {
+        fill: url(#m);
+      }
+
+      .n {
+        fill: url(#n);
+      }
+
+      .o {
+        fill: url(#o);
+      }
+
+      .p {
+        fill: url(#p);
+      }
+
+      .q {
+        fill: url(#q);
+      }
+
+      .r {
+        fill: url(#r);
+      }
+
+      .s {
+        fill: url(#s);
+      }
+
+      .t {
+        fill: url(#t);
+      }
+
+      .u {
+        fill: url(#u);
+      }
+
+      .v {
+        fill: url(#v);
+      }
+
+      .w {
+        fill: url(#w);
+      }
+
+      .x {
+        fill: url(#x);
+      }
+    </style>
+    <radialGradient id="a" cx="149.96" cy="133.61" r="71.52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffbe00" stop-opacity="0.8"/>
+      <stop offset="0.16" stop-color="#ffc20c" stop-opacity="0.61"/>
+      <stop offset="0.38" stop-color="#ffc61b" stop-opacity="0.4"/>
+      <stop offset="0.57" stop-color="#ffca26" stop-opacity="0.22"/>
+      <stop offset="0.75" stop-color="#ffcc2e" stop-opacity="0.1"/>
+      <stop offset="0.9" stop-color="#ffcd33" stop-opacity="0.03"/>
+      <stop offset="1" stop-color="#ffce35" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b" cx="986.7" cy="2664.18" r="71.52" gradientTransform="translate(-1918.94 -3410.94) scale(2.1 1.33)" xlink:href="#a"/>
+    <radialGradient id="c" cx="909.05" cy="3386.26" r="71.52" gradientTransform="translate(-289.91 -3034.18) scale(0.48 0.94)" xlink:href="#a"/>
+    <radialGradient id="d" cx="1012.46" cy="1778.05" r="6.53" gradientTransform="translate(-3353.01 -4426.32) scale(3.48 2.52)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffbe00" stop-opacity="0.8"/>
+      <stop offset="0.01" stop-color="#ffbe02" stop-opacity="0.78"/>
+      <stop offset="0.05" stop-color="#ffc20c" stop-opacity="0.61"/>
+      <stop offset="0.1" stop-color="#ffc516" stop-opacity="0.47"/>
+      <stop offset="0.16" stop-color="#ffc71e" stop-opacity="0.34"/>
+      <stop offset="0.22" stop-color="#ffc926" stop-opacity="0.23"/>
+      <stop offset="0.29" stop-color="#ffcb2b" stop-opacity="0.15"/>
+      <stop offset="0.37" stop-color="#ffcc30" stop-opacity="0.08"/>
+      <stop offset="0.47" stop-color="#ffcd33" stop-opacity="0.03"/>
+      <stop offset="0.61" stop-color="#ffce35" stop-opacity="0.01"/>
+      <stop offset="1" stop-color="#ffce35" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="e" cx="166.49" cy="61.14" r="6.53" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#d"/>
+    <radialGradient id="f" cx="166.49" cy="61.14" r="3.42" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff6de" stop-opacity="0.8"/>
+      <stop offset="0.01" stop-color="#fff5d9" stop-opacity="0.78"/>
+      <stop offset="0.05" stop-color="#ffedb7" stop-opacity="0.61"/>
+      <stop offset="0.1" stop-color="#ffe598" stop-opacity="0.47"/>
+      <stop offset="0.16" stop-color="#ffdf7d" stop-opacity="0.34"/>
+      <stop offset="0.22" stop-color="#ffda66" stop-opacity="0.23"/>
+      <stop offset="0.29" stop-color="#ffd554" stop-opacity="0.15"/>
+      <stop offset="0.37" stop-color="#ffd246" stop-opacity="0.08"/>
+      <stop offset="0.47" stop-color="#ffd03c" stop-opacity="0.03"/>
+      <stop offset="0.61" stop-color="#ffce37" stop-opacity="0.01"/>
+      <stop offset="1" stop-color="#ffce35" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g" cx="1005.05" cy="1772.13" r="9.62" xlink:href="#d"/>
+    <radialGradient id="h" cx="140.73" cy="46.2" r="9.62" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#d"/>
+    <radialGradient id="i" cx="140.73" cy="46.2" r="5.04" xlink:href="#f"/>
+    <radialGradient id="j" cx="1000.73" cy="1781.71" r="4.98" xlink:href="#d"/>
+    <radialGradient id="k" cx="125.73" cy="70.36" r="4.98" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#d"/>
+    <radialGradient id="l" cx="125.73" cy="70.36" r="2.61" xlink:href="#f"/>
+    <radialGradient id="m" cx="1011.09" cy="1767.16" r="4.65" xlink:href="#d"/>
+    <radialGradient id="n" cx="161.72" cy="33.64" r="4.65" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#d"/>
+    <radialGradient id="o" cx="161.72" cy="33.64" r="2.43" xlink:href="#f"/>
+    <radialGradient id="p" cx="1006.43" cy="1757.86" r="4.04" xlink:href="#d"/>
+    <radialGradient id="q" cx="145.53" cy="10.19" r="4.04" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#d"/>
+    <radialGradient id="r" cx="145.53" cy="10.19" r="2.11" xlink:href="#f"/>
+    <radialGradient id="s" cx="1009.31" cy="1772.34" r="4.04" xlink:href="#d"/>
+    <radialGradient id="t" cx="155.53" cy="46.72" r="4.04" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#d"/>
+    <radialGradient id="u" cx="155.53" cy="46.72" r="2.11" xlink:href="#f"/>
+    <radialGradient id="v" cx="1007.32" cy="1784.14" r="4.04" xlink:href="#d"/>
+    <radialGradient id="w" cx="148.61" cy="76.52" r="4.04" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#d"/>
+    <radialGradient id="x" cx="148.61" cy="76.52" r="2.11" xlink:href="#f"/>
+  </defs>
+  <title>small_beer_bubbles</title>
+  <g>
+    <g>
+      <circle class="a" cx="149.96" cy="133.61" r="71.52"/>
+      <ellipse class="b" cx="149.96" cy="141.3" rx="149.96" ry="95.36"/>
+      <ellipse class="c" cx="149.96" cy="133.61" rx="34.61" ry="66.9"/>
+    </g>
+    <g>
+      <g>
+        <ellipse class="d" cx="166.49" cy="61.14" rx="22.69" ry="16.47"/>
+        <circle class="e" cx="166.49" cy="61.14" r="6.53"/>
+        <circle class="f" cx="166.49" cy="61.14" r="3.42"/>
+      </g>
+      <g>
+        <ellipse class="g" cx="140.73" cy="46.2" rx="33.45" ry="24.29"/>
+        <circle class="h" cx="140.73" cy="46.2" r="9.62"/>
+        <circle class="i" cx="140.73" cy="46.2" r="5.04"/>
+      </g>
+      <g>
+        <ellipse class="j" cx="125.73" cy="70.36" rx="17.3" ry="12.56"/>
+        <circle class="k" cx="125.73" cy="70.36" r="4.98"/>
+        <circle class="l" cx="125.73" cy="70.36" r="2.61"/>
+      </g>
+      <g>
+        <ellipse class="m" cx="161.72" cy="33.64" rx="16.15" ry="11.72"/>
+        <circle class="n" cx="161.72" cy="33.64" r="4.65"/>
+        <circle class="o" cx="161.72" cy="33.64" r="2.43"/>
+      </g>
+      <g>
+        <ellipse class="p" cx="145.53" cy="10.19" rx="14.03" ry="10.19"/>
+        <circle class="q" cx="145.53" cy="10.19" r="4.04"/>
+        <circle class="r" cx="145.53" cy="10.19" r="2.11"/>
+      </g>
+      <g>
+        <ellipse class="s" cx="155.53" cy="46.72" rx="14.03" ry="10.19"/>
+        <circle class="t" cx="155.53" cy="46.72" r="4.04"/>
+        <circle class="u" cx="155.53" cy="46.72" r="2.11"/>
+      </g>
+      <g>
+        <ellipse class="v" cx="148.61" cy="76.52" rx="14.03" ry="10.19"/>
+        <circle class="w" cx="148.61" cy="76.52" r="4.04"/>
+        <circle class="x" cx="148.61" cy="76.52" r="2.11"/>
+      </g>
+    </g>
+  </g>
+</svg>

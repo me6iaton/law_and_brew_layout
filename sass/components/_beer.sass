@@ -1,0 +1,28 @@
+.beer
+  min-height: 1000px
+  width: 1280px
+  display: flex
+  margin-top: 150px
+  &__arrow
+    @include column($fraction: '2/24', $gut: 0px)
+    text-align: center
+    svg
+      margin-top: 100px
+  &__container
+    @include column($fraction: '20/24', $gut: 0px)
+    position: relative
+  &__slide
+    display: flex
+    justify-content: space-between
+    position: absolute
+  &__col
+    &:nth-child(2)
+      flex-basis: 660px
+      position: relative
+  &__rack
+    position: absolute
+    display: flex
+    bottom: 0
+    background-image: url('/images/beer_rack.png')
+    background-repeat: no-repeat
+    width: 645px

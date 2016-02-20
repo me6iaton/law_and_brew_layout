@@ -25,8 +25,9 @@ $screen-lg-min:              1280px;
 $screen-xs-max:              ($screen-sm-min - 1);
 $screen-sm-max:              ($screen-md-min - 1);
 $screen-md-max:              ($screen-lg-min - 1);
+$screen-lg-max:              1680px;
 
 // Colors
 $text-color: #fff;
 $accent-color: #EAAE3B;
-$box-color: #230605;
+$box-color: #230605
