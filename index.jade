@@ -16,8 +16,7 @@ html(lang='en')
         .container
           .menu__container
             a.menu__item(href='#ancor_top')
-              span.visible--lg-inline-block Viva la
-              span craft
+              span.visible--lg-inline-block Viva la <span> craft</span>
             a.menu__item(href='#ancor_beer')
               | Наше пиво
             a.menu__item(href='#ancor_process')
@@ -135,26 +134,84 @@ html(lang='en')
               h3 ≈ 1 месяц          
               h4 50 % — предоплата
               h4 50 % — курьеру
-    #ancor_about.container.scrollto
+    .container
       .about
         .about__col
-          .border-box.border-box--double
-            .border-box__cornel
-              include svg/double_cornel.svg
-            .border-box__cornel
-              include svg/double_cornel.svg
-            .border-box__cornel
-              include svg/double_cornel.svg
-            .border-box__cornel
-              include svg/double_cornel.svg
-            .border-box__header
-              | Юристпруденция и пиво
-            .border-box__sub-header
-              | а это вообще совмещают ?
-            .border-box__quote
-              include svg/box_quote.svg
-            .border-box__desc
-              | Пожалуй, это самый популярный вопрос к нам за те полгода, что мы варим пиво в Петербурге.
+          #ancor_about.scrollto
+            .border-box.border-box--double
+              .border-box__cornel
+                include svg/double_cornel.svg
+              .border-box__cornel
+                include svg/double_cornel.svg
+              .border-box__cornel
+                include svg/double_cornel.svg
+              .border-box__cornel
+                include svg/double_cornel.svg
+              .border-box__header
+                | Юристпруденция и пиво
+              .border-box__sub-header
+                | а это вообще совмещают ?
+              .border-box__quote
+                include svg/box_quote.svg
+              .border-box__desc
+                | Пожалуй, это самый популярный вопрос к нам за те полгода, что мы варим пиво в Петербурге.
+            h3.about__frends-header
+              | Мы — команда <br> трех друзей  
+            .about__persons
+              ul
+                li Антон Ильин <span>(слева)</span>
+                li Владимир Миронов <span>(по центру)</span
+                li Евгений Юдин <span>(справа)</span>
+              p
+                | Которые по предварительному сговору решили варить отличное крафтовое пиво для себя и своих друзей. 
+            p.about__paragraph  
+              | Мы профессиональные юристы, пивоварение для нас является хобби, которым мы занимаемся регулярно и с большим желанием, что собственно и отображается в нашем названии. Поэтому в каждом нашем пиве имеется намек на юридические термины и обозначения.  
+          #ancor_contacts.scrollto
+            h3.about__header
+              | Касательно продукции
+            p.about__paragraph
+              | Все составляющие для пива, выбираются, в первую очередь, по критерию качества, так как мы уверенны, что только хорошее сырье может дать отличный результат. Рецепты мы переводим с американских форумов, в основном мы варим светлые сорта элей, в частности IPA, APA etc.
+            h3.about__header
+              | Как заказать?
+            p.about__paragraph
+              | Мы не продаем алкоголь. Мы варим его под Ваш заказ из тех вариантов, которые представлены на нашем сайте. Стили нашего пива постоянно улучшаются и могут быть подстроены под конкретного заказчика. Как все это работает?
+            ul.about__order-list
+              li 
+                <span>1</span>
+                | Вы оставляете заявку на варку конкретного вида пива
+              li
+                <span>2</span>
+                | Мы ее обрабатываем и приступаем к исполнению заказа
+              li
+                <span>3</span> 
+                | Единственное, что вы должны понимать, что процесс приготовления пива небыстрый
+            .about__billet
+              | Чем больше времени – тем пиво вкуснее. <br> Это формула залога качества любого крафтового пива.
+            .about__phone
+              | 8 (981) 844-07-11
+            .about__order
+              .border-box
+                .border-box__cornel
+                  include svg/single_cornel.svg
+                .border-box__cornel
+                  include svg/single_cornel.svg
+                .border-box__cornel
+                  include svg/single_cornel.svg
+                .border-box__cornel
+                  include svg/single_cornel.svg
+                .border-box__header
+                  | закажи пиво
+                .border-box__sub-header
+                  | прямо сейчас  
+            .about__commercial-note
+              .about__small-attention
+                include svg/small_attention.svg
+              p 
+                | Данный сайт носит исключительно информационно-ознакомительный характер и не преследует коммерческих целей.
+            .about__footer
+              p
+                | © Разработано друзьями из 
+                a(href="http://brabdev.com/" target="_blank") Brabens dev.
         .about__col
           .about__fixed
             .about__citation
@@ -164,13 +221,8 @@ html(lang='en')
               .about__quote
                 include svg/quote.svg
             .about__attention
-              include svg/attention.svg    
-                
-                      
-            
-                    
-    #ancor_contacts.container.scrollto
-      | test
+              include svg/attention.svg
+            img.about__photo(src="/images/big/img-20.png")                                               
     script(src="./bower_components/jquery/dist/jquery.js")
     script(src="./bower_components/jquery-easing-original/jquery.easing.js")
     script(src="./scripts/jquery.stickyNavbar.js")
