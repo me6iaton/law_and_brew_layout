@@ -36,7 +36,7 @@ gulp.task('build:sass', () => {
           outputStyle: 'expanded'
       }).on('error', sass.logError))
     .pipe(process.env.NODE_ENV === "production" ? gutil.noop() : sourcemaps.write())
-    .pipe(gulp.dest('./css'))
+    .pipe(gulp.dest('./'))
     .pipe(browserSync.stream())
 });
 
