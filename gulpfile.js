@@ -49,5 +49,8 @@ gulp.task('serve', ['build'], () => {
       open: false
   });
   gulp.watch('./sass/**/*.*', ['build:sass']);
-  gulp.watch(['./**/*.jade','./svg/*.svg'], ['build:jade'])
+  gulp.watch(['./**/*.jade', './svg/*.svg'], ['build:jade'])
+  gulp.watch(['./**/*.js'], function(){
+    browserSync.reload()
+  })
 });

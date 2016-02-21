@@ -4,7 +4,7 @@ html(lang='en')
     meta(charset='UTF-8')
     title Document
     link(rel='stylesheet', href='css/styles.css')
-    meta(content='width=device-width, initial-scale=1', name='viewport')
+    //- meta(content='width=device-width, initial-scale=1', name='viewport')
   body
     .top-bg.top-bg--left
       img(src='/images/big/img-09.png', alt='')
@@ -46,42 +46,103 @@ html(lang='en')
         .beer__arrow.beer__arrow--left
           include svg/arrow_left.svg
         .beer__container
-          .beer__slide
+          .beer__slide.beer__slide--active
             .beer__col
               .beer__big-glass
                 img(src="/images/big/img-21.png")      
             .beer__col
-              .border-box.border-box--double
+              .border-box.border-box--double.border-box--slide
                 include jade/chunks/double_cornels.jade
                 .border-box__header
                   | Бертель IPA Amarillo
                 .border-box__sub-header
                   | наш самый первый эль
-                .border-box__quote
-                  include svg/box_quote.svg
+                .border-box__separator
                 .border-box__desc
                   | Ароматный эль на с сильным охмелением cascade, с добавлением цедры апельсина и кориандра              
-              .beer__rack
-                .beer__small-glass.beer__small-glass--active
-                  img(src="/images/img-14.png")  
-                .beer__small-glass
-                  img(src="/images/img-15.png")  
           .beer__slide
             .beer__col
               .beer__big-glass
                 img(src="/images/big/img-22.png")      
             .beer__col
-              .border-box.border-box--double
+              .border-box.border-box--double.border-box--slide
                 include jade/chunks/double_cornels.jade
                 .border-box__header
                   | Бертель IPA Amarillo
                 .border-box__sub-header
                   | наш самый первый эль
-                .border-box__quote
-                  include svg/box_quote.svg
+                .border-box__separator
                 .border-box__desc
                   | Ароматный эль на с сильным охмелением cascade, с добавлением цедры апельсина и кориандра                            
           .beer__slide
+            .beer__col
+              .beer__big-glass
+                img(src="/images/big/img-23.png")      
+            .beer__col
+              .border-box.border-box--double.border-box--slide
+                include jade/chunks/double_cornels.jade
+                .border-box__header
+                  | Бертель IPA Amarillo
+                .border-box__sub-header
+                  | наш самый первый эль
+                .border-box__separator
+                .border-box__desc
+                  | Ароматный эль на с сильным охмелением cascade, с добавлением цедры апельсина и кориандра                            
+          .beer__slide
+            .beer__col
+              .beer__big-glass
+                img(src="/images/big/img-24.png")      
+            .beer__col
+              .border-box.border-box--double.border-box--slide
+                include jade/chunks/double_cornels.jade
+                .border-box__header
+                  | Бертель IPA Amarillo
+                .border-box__sub-header
+                  | наш самый первый эль
+                .border-box__separator
+                .border-box__desc
+                  | Ароматный эль на с сильным охмелением cascade, с добавлением цедры апельсина и кориандра                            
+          .beer__slide
+            .beer__col
+              .beer__big-glass
+                img(src="/images/big/img-25.png")      
+            .beer__col
+              .border-box.border-box--double.border-box--slide
+                include jade/chunks/double_cornels.jade
+                .border-box__header
+                  | Бертель IPA Amarillo
+                .border-box__sub-header
+                  | наш самый первый эль
+                .border-box__separator
+                .border-box__desc
+                  | Ароматный эль на с сильным охмелением cascade, с добавлением цедры апельсина и кориандра                            
+          .beer__slide
+            .beer__col
+              .beer__big-glass
+                img(src="/images/big/img-26.png")      
+            .beer__col
+              .border-box.border-box--double.border-box--slide
+                include jade/chunks/double_cornels.jade
+                .border-box__header
+                  | Бертель IPA Amarillo
+                .border-box__sub-header
+                  | наш самый первый эль
+                .border-box__separator
+                .border-box__desc
+                  | Ароматный эль на с сильным охмелением cascade, с добавлением цедры апельсина и кориандра                            
+          .beer__rack
+            .beer__small-glass.beer__small-glass--active
+              img(src="/images/img-14.png")  
+            .beer__small-glass
+              img(src="/images/img-15.png")  
+            .beer__small-glass
+              img(src="/images/img-16.png")  
+            .beer__small-glass
+              img(src="/images/img-17.png")  
+            .beer__small-glass
+              img(src="/images/img-18.png")  
+            .beer__small-glass
+              img(src="/images/img-19.png")  
         .beer__arrow.beer__arrow--right
           include svg/arrow_right.svg
     #ancor_process.container.scrollto
@@ -174,7 +235,7 @@ html(lang='en')
       .about
         .about__col
           #ancor_about.scrollto
-            .border-box.border-box--double
+            .border-box.border-box--double.border-box--slide
               include jade/chunks/double_cornels.jade
               .border-box__header
                 | Юристпруденция и пиво

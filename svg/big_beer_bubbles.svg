@@ -1,95 +1,95 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="259" height="157" viewBox="0 0 259 157">
+<svg id="bb401f9b-cdfe-473f-b40c-b0712d4e5c90" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="189.91" height="115.12" viewBox="0 0 189.91 115.12">
   <defs>
     <style>
-      .a, .d, .g, .j, .m, .p, .s {
+      .\30 0e0f835-66b2-4fc0-bae1-11d2c0872efe, .\33 3252e87-e8e5-4e21-8bcd-ef215322df6e, .\33 9c27dd7-5cb9-4f1e-8b3a-f64827f8a552, .\38 222f90e-e306-449e-aa0e-6e1fca8b1b35, .c59f8bf9-f67f-40ef-8cc3-3bb84e6eeeb1, .dbac1afd-fc72-411c-aa30-f18cdbe7b1d6, .e76f20b5-02b4-438c-8f9c-061cff4f1e58 {
         opacity: 0.43;
       }
 
-      .a {
-        fill: url(#a);
+      .\30 0e0f835-66b2-4fc0-bae1-11d2c0872efe {
+        fill: url(#840357bf-5dc9-4250-9f7c-92b8a299d44e);
       }
 
-      .b {
-        fill: url(#b);
+      .c8e13e29-5cf1-4065-a876-92880c400fed {
+        fill: url(#ed3b9d72-5675-4199-82f3-d7665daabc6e);
       }
 
-      .c {
-        fill: url(#c);
+      .\31 e1a87ab-4cbc-4f6f-94d9-b50a1def0334 {
+        fill: url(#08f1093b-b000-4182-9634-d76401fb72b2);
       }
 
-      .d {
-        fill: url(#d);
+      .\38 222f90e-e306-449e-aa0e-6e1fca8b1b35 {
+        fill: url(#3dfb8226-b073-4687-87a2-9d42306a3871);
       }
 
-      .e {
-        fill: url(#e);
+      .\37 14bad07-8db3-4649-9177-6276b5eeff96 {
+        fill: url(#070d7ca0-bb7f-4d2c-9739-2e6da3feff8d);
       }
 
-      .f {
-        fill: url(#f);
+      .\35 7f81bfd-809a-4a11-b64f-60d951e98fab {
+        fill: url(#cfcddb09-c10b-43fe-8e38-a5121735ebd0);
       }
 
-      .g {
-        fill: url(#g);
+      .\33 9c27dd7-5cb9-4f1e-8b3a-f64827f8a552 {
+        fill: url(#3035917c-e32b-46ee-8257-ebcf9caff755);
       }
 
-      .h {
-        fill: url(#h);
+      .fd65c7b6-7762-4800-b929-f61da1bad225 {
+        fill: url(#169aab49-d4b7-4489-8ad5-3a766065a89d);
       }
 
-      .i {
-        fill: url(#i);
+      .\30 48245ec-9950-4842-b399-b4dd6fce106b {
+        fill: url(#73b2a7f1-5c02-43a5-81d3-800902d0390d);
       }
 
-      .j {
-        fill: url(#j);
+      .c59f8bf9-f67f-40ef-8cc3-3bb84e6eeeb1 {
+        fill: url(#3dfcdb6f-d4a6-4dfb-bbb4-1a6d859dd7ec);
       }
 
-      .k {
-        fill: url(#k);
+      .\35 8ac0289-47ef-422a-a0a3-9cea8834a657 {
+        fill: url(#3ce98e4b-202e-4fdb-9b73-75841ad2cc39);
       }
 
-      .l {
-        fill: url(#l);
+      .befcb9c0-5932-44b0-a429-bf6d7ff7c2f7 {
+        fill: url(#e3c62dd6-bf6e-4c22-b827-8861c8e09991);
       }
 
-      .m {
-        fill: url(#m);
+      .dbac1afd-fc72-411c-aa30-f18cdbe7b1d6 {
+        fill: url(#2103bc67-d800-4c77-a7c3-ef0ae10f587a);
       }
 
-      .n {
-        fill: url(#n);
+      .\31 595c9a4-495e-4665-b4e4-9ded3f40b387 {
+        fill: url(#a3453452-2bf2-4117-9e01-7b91e0bcc64f);
       }
 
-      .o {
-        fill: url(#o);
+      .\30 98e2157-e59e-4da7-9085-8394fbefa54e {
+        fill: url(#6c0c5662-233e-4792-a59a-a52fa3729049);
       }
 
-      .p {
-        fill: url(#p);
+      .\33 3252e87-e8e5-4e21-8bcd-ef215322df6e {
+        fill: url(#a93ce4c3-fe5b-440f-a347-28ce525500fb);
       }
 
-      .q {
-        fill: url(#q);
+      .f39f1b7d-0250-497e-ae6a-6656870a74f9 {
+        fill: url(#4e185a8a-835c-4a84-b9ad-df4abef8f101);
       }
 
-      .r {
-        fill: url(#r);
+      .\35 88e3b25-5167-4d8e-ab36-90295a4b8c40 {
+        fill: url(#c16617fa-f492-4725-b5fd-b42600556054);
       }
 
-      .s {
-        fill: url(#s);
+      .e76f20b5-02b4-438c-8f9c-061cff4f1e58 {
+        fill: url(#4525bce7-1cea-4cef-96a9-d83933350eed);
       }
 
-      .t {
-        fill: url(#t);
+      .\35 74c71ee-c16c-4a41-86b8-202d5a910e27 {
+        fill: url(#13423f8a-2c89-4b8e-973a-54d76308dbaf);
       }
 
-      .u {
-        fill: url(#u);
+      .fba1230d-f7b8-4649-993a-93b1dd0d8b61 {
+        fill: url(#f1f053aa-b509-49e8-ae8a-92e0bccfe75e);
       }
     </style>
-    <radialGradient id="a" cx="877.92" cy="1580.59" r="7.57" gradientTransform="translate(-3025.51 -3869.05) scale(3.48 2.52)" gradientUnits="userSpaceOnUse">
+    <radialGradient id="840357bf-5dc9-4250-9f7c-92b8a299d44e" cx="1875.76" cy="1527.73" r="5.55" gradientTransform="translate(-6501.2 -3767.68) scale(3.48 2.52)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#ffbe00" stop-opacity="0.8"/>
       <stop offset="0.01" stop-color="#ffbe02" stop-opacity="0.78"/>
       <stop offset="0.05" stop-color="#ffc20c" stop-opacity="0.61"/>
@@ -102,8 +102,8 @@
       <stop offset="0.61" stop-color="#ffce35" stop-opacity="0.01"/>
       <stop offset="1" stop-color="#ffce35" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="b" cx="26.32" cy="120.05" r="7.57" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#a"/>
-    <radialGradient id="c" cx="26.32" cy="120.05" r="3.97" gradientUnits="userSpaceOnUse">
+    <radialGradient id="ed3b9d72-5675-4199-82f3-d7665daabc6e" cx="19.3" cy="88.03" r="5.55" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#840357bf-5dc9-4250-9f7c-92b8a299d44e"/>
+    <radialGradient id="08f1093b-b000-4182-9634-d76401fb72b2" cx="19.3" cy="88.03" r="2.91" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fff6de" stop-opacity="0.8"/>
       <stop offset="0.01" stop-color="#fff5d9" stop-opacity="0.78"/>
       <stop offset="0.05" stop-color="#ffedb7" stop-opacity="0.61"/>
@@ -116,61 +116,61 @@
       <stop offset="0.61" stop-color="#ffce37" stop-opacity="0.01"/>
       <stop offset="1" stop-color="#ffce35" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="d" cx="927.08" cy="1579.75" r="15.48" xlink:href="#a"/>
-    <radialGradient id="e" cx="197.2" cy="117.94" r="15.48" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#a"/>
-    <radialGradient id="f" cx="197.2" cy="117.94" r="8.11" xlink:href="#c"/>
-    <radialGradient id="g" cx="897.42" cy="1569.03" r="11.03" xlink:href="#a"/>
-    <radialGradient id="h" cx="94.09" cy="90.9" r="11.03" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#a"/>
-    <radialGradient id="i" cx="94.09" cy="90.9" r="5.78" xlink:href="#c"/>
-    <radialGradient id="j" cx="910.68" cy="1559.44" r="5.39" xlink:href="#a"/>
-    <radialGradient id="k" cx="140.18" cy="66.68" r="5.39" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#a"/>
-    <radialGradient id="l" cx="140.18" cy="66.68" r="2.82" xlink:href="#c"/>
-    <radialGradient id="m" cx="896.59" cy="1537.7" r="4.68" xlink:href="#a"/>
-    <radialGradient id="n" cx="91.21" cy="11.82" r="4.68" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#a"/>
-    <radialGradient id="o" cx="91.21" cy="11.82" r="2.45" xlink:href="#c"/>
-    <radialGradient id="p" cx="940.18" cy="1572.87" r="4.68" xlink:href="#a"/>
-    <radialGradient id="q" cx="242.72" cy="100.58" r="4.68" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#a"/>
-    <radialGradient id="r" cx="242.72" cy="100.58" r="2.45" xlink:href="#c"/>
-    <radialGradient id="s" cx="910.67" cy="1585.06" r="7.76" xlink:href="#a"/>
-    <radialGradient id="t" cx="140.14" cy="131.35" r="7.76" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#a"/>
-    <radialGradient id="u" cx="140.14" cy="131.35" r="4.07" xlink:href="#c"/>
+    <radialGradient id="3dfb8226-b073-4687-87a2-9d42306a3871" cx="1911.8" cy="1527.12" r="11.35" xlink:href="#840357bf-5dc9-4250-9f7c-92b8a299d44e"/>
+    <radialGradient id="070d7ca0-bb7f-4d2c-9739-2e6da3feff8d" cx="144.59" cy="86.48" r="11.35" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#840357bf-5dc9-4250-9f7c-92b8a299d44e"/>
+    <radialGradient id="cfcddb09-c10b-43fe-8e38-a5121735ebd0" cx="144.59" cy="86.48" r="5.94" xlink:href="#08f1093b-b000-4182-9634-d76401fb72b2"/>
+    <radialGradient id="3035917c-e32b-46ee-8257-ebcf9caff755" cx="1890.05" cy="1519.26" r="8.09" xlink:href="#840357bf-5dc9-4250-9f7c-92b8a299d44e"/>
+    <radialGradient id="169aab49-d4b7-4489-8ad5-3a766065a89d" cx="68.99" cy="66.65" r="8.09" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#840357bf-5dc9-4250-9f7c-92b8a299d44e"/>
+    <radialGradient id="73b2a7f1-5c02-43a5-81d3-800902d0390d" cx="68.99" cy="66.65" r="4.24" xlink:href="#08f1093b-b000-4182-9634-d76401fb72b2"/>
+    <radialGradient id="3dfcdb6f-d4a6-4dfb-bbb4-1a6d859dd7ec" cx="1899.78" cy="1512.23" r="3.95" xlink:href="#840357bf-5dc9-4250-9f7c-92b8a299d44e"/>
+    <radialGradient id="3ce98e4b-202e-4fdb-9b73-75841ad2cc39" cx="102.79" cy="48.9" r="3.95" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#840357bf-5dc9-4250-9f7c-92b8a299d44e"/>
+    <radialGradient id="e3c62dd6-bf6e-4c22-b827-8861c8e09991" cx="102.79" cy="48.9" r="2.07" xlink:href="#08f1093b-b000-4182-9634-d76401fb72b2"/>
+    <radialGradient id="2103bc67-d800-4c77-a7c3-ef0ae10f587a" cx="1889.45" cy="1496.29" r="3.43" xlink:href="#840357bf-5dc9-4250-9f7c-92b8a299d44e"/>
+    <radialGradient id="a3453452-2bf2-4117-9e01-7b91e0bcc64f" cx="66.88" cy="8.67" r="3.43" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#840357bf-5dc9-4250-9f7c-92b8a299d44e"/>
+    <radialGradient id="6c0c5662-233e-4792-a59a-a52fa3729049" cx="66.88" cy="8.67" r="1.8" xlink:href="#08f1093b-b000-4182-9634-d76401fb72b2"/>
+    <radialGradient id="a93ce4c3-fe5b-440f-a347-28ce525500fb" cx="1921.41" cy="1522.08" r="3.43" xlink:href="#840357bf-5dc9-4250-9f7c-92b8a299d44e"/>
+    <radialGradient id="4e185a8a-835c-4a84-b9ad-df4abef8f101" cx="177.97" cy="73.75" r="3.43" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#840357bf-5dc9-4250-9f7c-92b8a299d44e"/>
+    <radialGradient id="c16617fa-f492-4725-b5fd-b42600556054" cx="177.97" cy="73.75" r="1.8" xlink:href="#08f1093b-b000-4182-9634-d76401fb72b2"/>
+    <radialGradient id="4525bce7-1cea-4cef-96a9-d83933350eed" cx="1899.77" cy="1531.02" r="5.69" xlink:href="#840357bf-5dc9-4250-9f7c-92b8a299d44e"/>
+    <radialGradient id="13423f8a-2c89-4b8e-973a-54d76308dbaf" cx="102.76" cy="96.31" r="5.69" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#840357bf-5dc9-4250-9f7c-92b8a299d44e"/>
+    <radialGradient id="f1f053aa-b509-49e8-ae8a-92e0bccfe75e" cx="102.76" cy="96.31" r="2.98" xlink:href="#08f1093b-b000-4182-9634-d76401fb72b2"/>
   </defs>
   <title>big_beer_bubbles</title>
   <g>
     <g>
-      <ellipse class="a" cx="26.32" cy="120.05" rx="26.32" ry="19.11"/>
-      <circle class="b" cx="26.32" cy="120.05" r="7.57"/>
-      <circle class="c" cx="26.32" cy="120.05" r="3.97"/>
+      <ellipse class="00e0f835-66b2-4fc0-bae1-11d2c0872efe" cx="19.3" cy="88.03" rx="19.3" ry="14.01"/>
+      <circle class="c8e13e29-5cf1-4065-a876-92880c400fed" cx="19.3" cy="88.03" r="5.55"/>
+      <circle class="1e1a87ab-4cbc-4f6f-94d9-b50a1def0334" cx="19.3" cy="88.03" r="2.91"/>
     </g>
     <g>
-      <ellipse class="d" cx="197.2" cy="117.94" rx="53.8" ry="39.06"/>
-      <circle class="e" cx="197.2" cy="117.94" r="15.48"/>
-      <circle class="f" cx="197.2" cy="117.94" r="8.11"/>
+      <ellipse class="8222f90e-e306-449e-aa0e-6e1fca8b1b35" cx="144.59" cy="86.48" rx="39.45" ry="28.64"/>
+      <circle class="714bad07-8db3-4649-9177-6276b5eeff96" cx="144.59" cy="86.48" r="11.35"/>
+      <circle class="57f81bfd-809a-4a11-b64f-60d951e98fab" cx="144.59" cy="86.48" r="5.94"/>
     </g>
     <g>
-      <ellipse class="g" cx="94.09" cy="90.9" rx="38.34" ry="27.83"/>
-      <circle class="h" cx="94.09" cy="90.9" r="11.03"/>
-      <circle class="i" cx="94.09" cy="90.9" r="5.78"/>
+      <ellipse class="39c27dd7-5cb9-4f1e-8b3a-f64827f8a552" cx="68.99" cy="66.65" rx="28.11" ry="20.41"/>
+      <circle class="fd65c7b6-7762-4800-b929-f61da1bad225" cx="68.99" cy="66.65" r="8.09"/>
+      <circle class="048245ec-9950-4842-b399-b4dd6fce106b" cx="68.99" cy="66.65" r="4.24"/>
     </g>
     <g>
-      <ellipse class="j" cx="140.18" cy="66.68" rx="18.73" ry="13.6"/>
-      <circle class="k" cx="140.18" cy="66.68" r="5.39"/>
-      <circle class="l" cx="140.18" cy="66.68" r="2.82"/>
+      <ellipse class="c59f8bf9-f67f-40ef-8cc3-3bb84e6eeeb1" cx="102.79" cy="48.9" rx="13.74" ry="9.97"/>
+      <circle class="58ac0289-47ef-422a-a0a3-9cea8834a657" cx="102.79" cy="48.9" r="3.95"/>
+      <circle class="befcb9c0-5932-44b0-a429-bf6d7ff7c2f7" cx="102.79" cy="48.9" r="2.07"/>
     </g>
     <g>
-      <ellipse class="m" cx="91.21" cy="11.82" rx="16.28" ry="11.82"/>
-      <circle class="n" cx="91.21" cy="11.82" r="4.68"/>
-      <circle class="o" cx="91.21" cy="11.82" r="2.45"/>
+      <ellipse class="dbac1afd-fc72-411c-aa30-f18cdbe7b1d6" cx="66.88" cy="8.67" rx="11.94" ry="8.67"/>
+      <circle class="1595c9a4-495e-4665-b4e4-9ded3f40b387" cx="66.88" cy="8.67" r="3.43"/>
+      <circle class="098e2157-e59e-4da7-9085-8394fbefa54e" cx="66.88" cy="8.67" r="1.8"/>
     </g>
     <g>
-      <ellipse class="p" cx="242.72" cy="100.58" rx="16.28" ry="11.82"/>
-      <circle class="q" cx="242.72" cy="100.58" r="4.68"/>
-      <circle class="r" cx="242.72" cy="100.58" r="2.45"/>
+      <ellipse class="33252e87-e8e5-4e21-8bcd-ef215322df6e" cx="177.97" cy="73.75" rx="11.94" ry="8.67"/>
+      <circle class="f39f1b7d-0250-497e-ae6a-6656870a74f9" cx="177.97" cy="73.75" r="3.43"/>
+      <circle class="588e3b25-5167-4d8e-ab36-90295a4b8c40" cx="177.97" cy="73.75" r="1.8"/>
     </g>
     <g>
-      <ellipse class="s" cx="140.14" cy="131.35" rx="26.98" ry="19.59"/>
-      <circle class="t" cx="140.14" cy="131.35" r="7.76"/>
-      <circle class="u" cx="140.14" cy="131.35" r="4.07"/>
+      <ellipse class="e76f20b5-02b4-438c-8f9c-061cff4f1e58" cx="102.76" cy="96.31" rx="19.79" ry="14.37"/>
+      <circle class="574c71ee-c16c-4a41-86b8-202d5a910e27" cx="102.76" cy="96.31" r="5.69"/>
+      <circle class="fba1230d-f7b8-4649-993a-93b1dd0d8b61" cx="102.76" cy="96.31" r="2.98"/>
     </g>
   </g>
 </svg>

@@ -18,4 +18,39 @@ $(function () {
      parentStickyModeClass: "menu--sticky", // Class that will be applied to 'this' in sticky mode
      unstickyModeClass: "menu__fixed--unsticky" // Class that will be applied to 'this' in non-sticky mode
  });
+
+ $('.beer__arrow').click(function(e){
+    var $this = $(this);
+    var activeClass = {
+      slide: 'beer__slide--active',
+      nav: 'beer__small-glass--active'
+    };
+    var $activeSlide = $('.beer__container').find('.'+activeClass.slide).first();
+    var $activeNav = $('.beer__rack').find('.'+activeClass.nav).first();
+
+    if ($this.hasClass('beer__arrow--left')) {
+      showPrev($activeSlide, '.beer__slide', activeClass.slide)
+      showPrev($activeNav, '.beer__small-glass', activeClass.nav)
+    } else if ($this.hasClass('beer__arrow--right')) {
+      showNext($activeSlide, '.beer__slide', activeClass.slide)
+      showNext($activeNav, '.beer__small-glass', activeClass.nav)
+    }
+ })
+ function showPrev($current, selector, activeClass) {
+   if($current.prev(selector).length){
+     $current.prev(selector).addClass(activeClass);
+   }else{
+     $current.parent().children(selector).last().addClass(activeClass);
+   }
+   $current.removeClass(activeClass);
+ }
+ function showNext($current, selector, activeClass) {
+   if($current.next(selector).length){
+     $current.next(selector).addClass(activeClass);
+   }else{
+     $current.parent().children(selector).first().addClass(activeClass);
+   }
+   $current.removeClass(activeClass);
+ }
+
 });

@@ -1,6 +1,5 @@
 .beer
   min-height: 1000px
-  width: 1280px
   display: flex
   margin-top: 150px
   &__arrow
@@ -8,6 +7,7 @@
     text-align: center
     svg
       margin-top: 100px
+      cursor: pointer
   &__container
     @include column($fraction: '20/24', $gut: 0px)
     position: relative
@@ -15,14 +15,76 @@
     display: flex
     justify-content: space-between
     position: absolute
+    opacity: 0
+    visibility: visible
+    transition: all 500ms ease-in
+    &--active
+      opacity: 1
+      visibility: visible
   &__col
+    box-sizing: border-box
+    &:nth-child(1)
+    //
     &:nth-child(2)
       flex-basis: 660px
-      position: relative
+      display: flex
+      flex-direction: column
+      justify-content: space-between
   &__rack
     position: absolute
+    width: 660px
+    right: 0px
+    top: 510px
     display: flex
-    bottom: 0
-    background-image: url('/images/beer_rack.png')
-    background-repeat: no-repeat
-    width: 645px
+    overflow: visible
+    justify-content: space-between
+    box-sizing: border-box
+    padding: 0 80px 57px 80px
+    z-index: 1
+    &::after
+      content: ""
+      display: block
+      position: absolute
+      bottom: -120px
+      left: 0px
+      width: 100%
+      height: 200px
+      background-image: url('/images/img-13.png')
+      background-position: center 0px
+      background-repeat: no-repeat
+      z-index: -1
+  &__small-glass
+    position: relative
+    bottom: 0px
+    transition: all 500ms ease-out
+    &::after
+      opacity: 0
+    &--active
+      bottom: 30px
+      &::after
+        content: ""
+        position: absolute
+        z-index: -1
+        opacity: 1
+        width: 238px
+        height: 220px
+        top: -89px
+        right: -95px
+        background: url('/svg/small_beer_bubbles.svg')
+
+//  Medium screen / desktop
+@media (max-width: $screen-md-max)
+  .beer
+    min-height: 650px
+    &__col
+      &:nth-child(1)
+        margin-right: 0px
+        img
+          height: 500px
+      &:nth-child(2)
+        flex-basis: auto
+    &__rack
+      width: 550px
+      top: 360px
+      &::after
+        background-size: contain
