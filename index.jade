@@ -298,16 +298,18 @@ html(lang='en')
                 a(href="http://brabdev.com/" target="_blank") Brabens dev.
         .about__col
           .about__fixed
-            .about__citation
-              h4 Law & Brew за здоровый образ жизни
-              p
-                | Напоминаем, что чрезмерное употребление алкогольной продукции вредит вашему здоровью!
-              .about__quote
-                include svg/quote.svg
-            .about__attention
-              include svg/attention.svg
+            .about__citation-container
+              .about__citation
+                h4 Law & Brew за здоровый образ жизни
+                p
+                  | Напоминаем, что чрезмерное употребление алкогольной продукции вредит вашему здоровью!
+                .about__quote
+                  include svg/quote.svg
+              .about__attention
+                include svg/attention.svg
             img.about__photo(src="images/big/img-20.png")                                               
     script(src="./bower_components/jquery/dist/jquery.js")
     script(src="./bower_components/jquery-easing-original/jquery.easing.js")
     script(src="./scripts/jquery.stickyNavbar.js")
+    script(src="./scripts/affix.js")
     script(src="./index.js")

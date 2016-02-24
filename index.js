@@ -81,4 +81,16 @@ $(function () {
     }
   }
 
+  var photo = $('.about__photo').get(0);
+  photo.onload = function(){
+    var $fixed = $('.about__fixed').first();
+    var $photo = $(photo);
+    var top = $photo.offset().top - document.documentElement.clientHeight + photo.scrollHeight;
+    $fixed.affix({
+      offset: {
+        top: top
+      }
+    })
+  }
+
 });
