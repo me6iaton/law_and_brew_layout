@@ -97,10 +97,14 @@
         // of each section
         sectionOffsets = {};
         for (i = 0; i < sectionsLength; i++) {
-          sectionOffsets[sections[i].id] = sections[i].offsetTop;
+          var sectionOffsetTop =  sections[i].offsetTop;
+          if(sections[i].dataset.navOffset){
+            sectionOffsetTop = sectionOffsetTop - sections[i].dataset.navOffset
+          }
+          sectionOffsets[sections[i].id] = sectionOffsetTop;
         }
 
-        var toScroll = $self.hasClass(options.unstickyModeClass) ? sectionOffsets[currentHref] - 2 * thisHeight + 2 + 'px' : sectionOffsets[currentHref] - thisHeight + 2 + 'px';
+        var toScroll = sectionOffsets[currentHref] -  thisHeight + 2 + 'px';
 
         // on nav click navigate to selected section
         $('html, body').stop().animate({
@@ -136,8 +140,11 @@
 
         // add activeClass to the div that is passing the top of the window
         sections.each(function() {
-          var top = $(this).offset().top - thisHeight,
-              bottom = $(this).outerHeight(true) + top;
+          var top = $(this).offset().top - thisHeight;
+          if(this.dataset.navOffset){
+            top = top - this.dataset.navOffset;
+          }
+          var bottom = $(this).outerHeight(true) + top;
 
           //fix-me
           if ((windowPosition >= top) && (windowPosition <= bottom)) {

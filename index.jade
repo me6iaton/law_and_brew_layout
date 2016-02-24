@@ -41,7 +41,7 @@ html(lang='en')
         .top__next
           h2 ассортимент
           include svg/arrow_bottom.svg  
-    #ancor_beer.container.scrollto
+    #ancor_beer.container.scrollto(data-nav-offset='100')
       .beer
         .beer__arrow.beer__arrow--left
           include svg/arrow_left.svg
@@ -234,7 +234,7 @@ html(lang='en')
     .container
       .about
         .about__col
-          #ancor_about.scrollto
+          #ancor_about.scrollto(data-nav-offset='100')
             .border-box.border-box--double
               include jade/chunks/double_cornels.jade
               .border-box__header
@@ -256,12 +256,12 @@ html(lang='en')
                 | Которые по предварительному сговору решили варить отличное крафтовое пиво для себя и своих друзей. 
             p.about__paragraph  
               | Мы профессиональные юристы, пивоварение для нас является хобби, которым мы занимаемся регулярно и с большим желанием, что собственно и отображается в нашем названии. Поэтому в каждом нашем пиве имеется намек на юридические термины и обозначения.  
-          //- #ancor_contacts
-          #ancor_contacts.scrollto
             h3.about__header
               | Касательно продукции
             p.about__paragraph
               | Все составляющие для пива, выбираются, в первую очередь, по критерию качества, так как мы уверенны, что только хорошее сырье может дать отличный результат. Рецепты мы переводим с американских форумов, в основном мы варим светлые сорта элей, в частности IPA, APA etc.
+          //- #ancor_contacts
+          #ancor_contacts.scrollto(data-nav-offset='50')
             h3.about__header
               | Как заказать?
             p.about__paragraph
