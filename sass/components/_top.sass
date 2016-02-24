@@ -4,6 +4,7 @@
   align-items: center
   justify-content: center
   flex-wrap: wrap
+  position: relative
   &__frends
     svg
       .a, .b, .c
@@ -22,27 +23,31 @@
         fill: #fff
   &__header
     flex-grow: 1
+    position: relative
     svg
       display: block
       margin: 0 auto
-      .a, .g
-        fill: #fff
-      .a
-        opacity: 0.95
-      .b, .c, .d, .e
+      .a, .b, .c, .d
         fill: none
         stroke: #eaae3b
         stroke-linecap: round
         stroke-linejoin: round
-      .b
+      .a, .c
         fill-rule: evenodd
-      .d
-        fill-rule: evenodd
+      .c, .d
         stroke-width: 2px
       .e
-        stroke-width: 2px
-      .f
         fill: #eaae3b
+      .f
+        fill: #fff
+  &__header-canvas
+    position: absolute
+    top: 130px
+    left: 50%
+    margin-left: -200px
+    canvas
+      //
+
   &__order
     svg
       .a, .b, .c
