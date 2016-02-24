@@ -1,5 +1,5 @@
 $(function () {
- $('.menu__fixed').stickyNavbar({
+  $('.menu__fixed').stickyNavbar({
      activeClass: "menu__item--active", // Class to be added to highlight nav elements
      sectionSelector: "scrollto", // Class of the section that is interconnected with nav links
      animDuration: 350, // Duration of jQuery animation as well as jQuery scrolling duration
@@ -17,40 +17,68 @@ $(function () {
      stickyModeClass: "menu__fixed--sticky", // Class that will be applied to 'this' in sticky mode
      parentStickyModeClass: "menu--sticky", // Class that will be applied to 'this' in sticky mode
      unstickyModeClass: "menu__fixed--unsticky" // Class that will be applied to 'this' in non-sticky mode
- });
+  });
 
- $('.beer__arrow').click(function(e){
+  // slider
+  var sliderActiveClasses = {
+    slide: 'beer__slide--active',
+    nav: 'beer__small-glass--active'
+  };
+  var sliderSelectors = {
+    slideContainer: '.beer__container',
+    slide: '.beer__slide',
+    slideActive: '.beer__slide--active',
+    navContainer: '.beer__rack',
+    nav: '.beer__small-glass',
+    navActive: '.beer__small-glass--active'
+  };
+  $('.beer__arrow').click(function(e){
+    var activeClass = sliderActiveClasses;
+    var slct = sliderSelectors;
     var $this = $(this);
-    var activeClass = {
-      slide: 'beer__slide--active',
-      nav: 'beer__small-glass--active'
-    };
-    var $activeSlide = $('.beer__container').find('.'+activeClass.slide).first();
-    var $activeNav = $('.beer__rack').find('.'+activeClass.nav).first();
+    var $activeSlide = $(slct.slideContainer).find(slct.slideActive).first();
+    var $activeNav = $(slct.navContainer).find(slct.navActive).first();
 
     if ($this.hasClass('beer__arrow--left')) {
-      showPrev($activeSlide, '.beer__slide', activeClass.slide)
-      showPrev($activeNav, '.beer__small-glass', activeClass.nav)
+      showPrev($activeSlide, slct.slide, activeClass.slide)
+      showPrev($activeNav, slct.nav, activeClass.nav)
     } else if ($this.hasClass('beer__arrow--right')) {
-      showNext($activeSlide, '.beer__slide', activeClass.slide)
-      showNext($activeNav, '.beer__small-glass', activeClass.nav)
+      showNext($activeSlide, slct.slide, activeClass.slide)
+      showNext($activeNav, slct.nav, activeClass.nav)
     }
- })
- function showPrev($current, selector, activeClass) {
+  })
+  $('.beer__rack .beer__small-glass').click(function(e){
+    var $this = $(this);
+    showSlide($this, sliderSelectors,  sliderActiveClasses);
+  });
+  function showPrev($current, selector, activeClass) {
    if($current.prev(selector).length){
      $current.prev(selector).addClass(activeClass);
    }else{
      $current.parent().children(selector).last().addClass(activeClass);
    }
    $current.removeClass(activeClass);
- }
- function showNext($current, selector, activeClass) {
+  }
+  function showNext($current, selector, activeClass) {
    if($current.next(selector).length){
      $current.next(selector).addClass(activeClass);
    }else{
      $current.parent().children(selector).first().addClass(activeClass);
    }
    $current.removeClass(activeClass);
- }
+  }
+  function showSlide($nav, selectors, activeClasses){
+    if(!$nav.hasClass(activeClasses.nav)){
+      var index = $nav.index();
+      //nav
+      $nav.parent().children(selectors.nav).removeClass(activeClasses.nav);
+      $nav.addClass(activeClasses.nav);
+      //slide
+      $sliderContainer = $(selectors.slideContainer);
+      var $slide = $sliderContainer.find(selectors.slide).eq(index);
+      $sliderContainer.children(selectors.slide).removeClass(activeClasses.slide)
+      $slide.addClass(activeClasses.slide);
+    }
+  }
 
 });
