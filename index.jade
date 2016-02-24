@@ -287,6 +287,15 @@ html(lang='en')
                   | закажи пиво
                 .border-box__sub-header
                   | прямо сейчас  
+                .about__order-form
+                  .about__next
+                    include svg/arrow_bottom.svg    
+                  form.form
+                    .form__group
+                      input.form__text(type="text", placeholder="Как вас зовут?")   
+                    .form__group
+                      input.form__text(type="text", placeholder="Ваш номер телефона")   
+                    button.form__button(type="submit") СДЕЛАТЬ ЗАКАЗ
             .about__commercial-note
               .about__small-attention
                 include svg/small_attention.svg

@@ -88,9 +88,16 @@ $(function () {
     var top = $photo.offset().top - document.documentElement.clientHeight + photo.scrollHeight;
     $fixed.affix({
       offset: {
-        top: top
+        top: top,
+        bottom: 700
       }
     })
   }
+  $('.about__order').eq(0).click(function(e){
+    $this = $(this);
+    console.log($this);
+    $this.find('.about__order-form').toggleClass('about__order-form--active')
+  })
+  // order form
 
 });
