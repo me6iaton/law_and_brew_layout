@@ -89,15 +89,29 @@ $(function () {
     $fixed.affix({
       offset: {
         top: top,
-        bottom: 700
+        bottom: 0
       }
     })
-  }
+  };
+
+  // order form
+  $('.process .border-box').eq(0).click(function(e){
+    var toScroll = $('.about__order .about__order-form').offset().top - 590 + 'px';
+    console.log(toScroll);
+    $('html, body').stop().animate({
+      scrollTop: toScroll
+    }, {
+      duration: 350,
+      easing: 'swing'
+    });
+    $('.about__order .about__order-form').addClass('about__order-form--active')
+  });
+
   $('.about__order').eq(0).click(function(e){
     $this = $(this);
     console.log($this);
     $this.find('.about__order-form').toggleClass('about__order-form--active')
-  })
-  // order form
+  });
+
 
 });

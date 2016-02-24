@@ -106,7 +106,7 @@
 
         var toScroll = sectionOffsets[currentHref] -  thisHeight + 2 + 'px';
 
-        // on nav click navigate to selected section
+        // on nav click navigate to selected sectio
         $('html, body').stop().animate({
           scrollTop: toScroll
         }, {
