@@ -11,6 +11,10 @@
     color: $text-color
     margin-bottom: 20px
     box-sizing: border-box
+    &:active, &:focus
+      outline: none
+    &--invalid
+      border-color: red 
   &__button
     display: flex
     align-items: center
@@ -26,3 +30,5 @@
     box-sizing: border-box
     background-color: $box-color
     width: 100%
+    &:active, &:focus
+      outline: none

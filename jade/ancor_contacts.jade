@@ -1,0 +1,45 @@
+#ancor_contacts.scrollto(data-nav-offset='50')
+  h3.about__header
+    | Как заказать?
+  p.about__paragraph
+    | Мы не продаем алкоголь. Мы варим его под Ваш заказ из тех вариантов, которые представлены на нашем сайте. Стили нашего пива постоянно улучшаются и могут быть подстроены под конкретного заказчика. Как все это работает?
+  ul.about__order-list
+    li 
+      <span>1</span>
+      | Вы оставляете заявку на варку конкретного вида пива
+    li
+      <span>2</span>
+      | Мы ее обрабатываем и приступаем к исполнению заказа
+    li
+      <span>3</span> 
+      | Единственное, что вы должны понимать, что процесс приготовления пива небыстрый
+  .about__billet
+    | Чем больше времени – тем пиво вкуснее. <br> Это формула залога качества любого крафтового пива.
+  .about__phone
+    | 8 (981) 844-07-11
+  #ancor_order.scrollto(data-nav-offset='150').about__order
+    .border-box
+      include /jade/chunks/single_cornels.jade
+      .border-box__header
+        | закажи пиво
+      .border-box__sub-header
+        | прямо сейчас  
+      .about__order-form
+        .about__next
+          include /svg/arrow_bottom.svg    
+        form.form
+          input(type="hidden", name="_subject", value="Новый заказ с лендинга")
+          .form__group
+            input.form__text(type="text", name="name", placeholder="Как вас зовут?")   
+          .form__group
+            input.form__text(type="text", name="name", placeholder="Ваш номер телефона")   
+          button.form__button(type="submit") СДЕЛАТЬ ЗАКАЗ
+  .about__commercial-note
+    .about__small-attention
+        include /svg/small_attention.svg
+    p 
+      | Данный сайт носит исключительно информационно-ознакомительный характер и не преследует коммерческих целей.
+  .about__footer
+    p
+      | © Разработано друзьями из 
+      a(href="http://brabdev.com/" target="_blank") Brabens dev.

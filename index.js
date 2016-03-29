@@ -109,9 +109,47 @@ $(function () {
 
   $('.about__order').eq(0).click(function(e){
     $this = $(this);
-    console.log($this);
-    $this.find('.about__order-form').toggleClass('about__order-form--active')
+    $this.find('.about__order-form').addClass('about__order-form--active')
   });
 
+  var $formContainer = $('.about__order .about__order-form')
+  var $inputName =  $formContainer.find("input[name='name']")
+  var $inputPhone = $formContainer.find("input[name='phone']")
+  $('.about__order form').submit(function(e){
+    e.preventDefault()
+    $this = $(this);
+    var valid = true;
+    if($inputName.val().length == 0){
+      $inputName.addClass('form__text--invalid')
+      valid = false
+    }
+    if($inputPhone.val().length == 0){
+      $inputPhone.addClass('form__text--invalid')
+      valid = false
+    }
+    if(valid) {
+      $.ajax({
+          url: "https://formspree.io/me6iaton@gmail.com",
+          method: "POST",
+          data: {
+            name: $inputName.val(),
+            phone: $inputPhone.val(),
+          },
+          dataType: "json"
+      }).done(function() {
+        $formContainer.removeClass('about__order-form--active')
+        $inputName.removeClass('form__text--invalid').val('')
+        $inputPhone.removeClass('form__text--invalid').val('')
+      });
+    }
+  })
+  function checkEmptyInputValue(){
+    $this = $(this);
+    if($(this).val().length !== 0){
+      $this.removeClass('form__text--invalid')
+    }
+  }
+  $inputName.keydown(checkEmptyInputValue)
+  $inputPhone.keydown(checkEmptyInputValue)
 
 });

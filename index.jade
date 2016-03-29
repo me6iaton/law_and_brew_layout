@@ -23,288 +23,22 @@ html(lang='en')
             a.menu__item(href='#ancor_process')
               | Процесс
             .menu__header
-              include svg/menu_header.svg
+              include /svg/menu_header.svg
             a.menu__item(href='#ancor_about')
               | О нас
             a.menu__item(href='#ancor_contacts')
               | Контакты
             a.button(href='#ancor_order')
               | заказать                   
-    #ancor_top.container.scrollto
-      .top
-        .top__frends
-          include svg/screen_1_icon_frends.svg
-        .top__header
-          include svg/screen1_header_canvas.svg
-        .top__order
-          include svg/screen1_icon_order.svg
-        .top__next
-          h2 ассортимент
-          include svg/arrow_bottom.svg  
-    #ancor_beer.container.scrollto(data-nav-offset='100')
-      .beer
-        .beer__arrow.beer__arrow--left
-          include svg/arrow_left.svg
-        .beer__container
-          .beer__slide.beer__slide--active
-            .beer__col
-              .beer__big-glass
-                img(src="images/big/optimizilla/img-21-min.png")      
-            .beer__col
-              .border-box.border-box--double.border-box--slide
-                include jade/chunks/double_cornels.jade
-                .border-box__header
-                  | Бертель IPA Amarillo
-                .border-box__sub-header
-                  | наш самый первый эль
-                .border-box__separator
-                .border-box__desc
-                  | Ароматный эль на с сильным охмелением <br> cascade, с добавлением цедры апельсина и кориандра              
-          .beer__slide
-            .beer__col
-              .beer__big-glass
-                img(src="images/big/optimizilla/img-22-min.png")      
-            .beer__col
-              .border-box.border-box--double.border-box--slide
-                include jade/chunks/double_cornels.jade
-                .border-box__header
-                  | Бертель IPA Amarillo
-                .border-box__sub-header
-                  | наш самый первый эль
-                .border-box__separator
-                .border-box__desc
-                  | Ароматный эль на с сильным охмелением <br> cascade, с добавлением цедры апельсина и кориандра                            
-          .beer__slide
-            .beer__col
-              .beer__big-glass
-                img(src="images/big/optimizilla/img-23-min.png")      
-            .beer__col
-              .border-box.border-box--double.border-box--slide
-                include jade/chunks/double_cornels.jade
-                .border-box__header
-                  | Бертель IPA Amarillo
-                .border-box__sub-header
-                  | наш самый первый эль
-                .border-box__separator
-                .border-box__desc
-                  | Ароматный эль на с сильным охмелением <br> cascade, с добавлением цедры апельсина и кориандра                            
-          .beer__slide
-            .beer__col
-              .beer__big-glass
-                img(src="images/big/optimizilla/img-24-min.png")      
-            .beer__col
-              .border-box.border-box--double.border-box--slide
-                include jade/chunks/double_cornels.jade
-                .border-box__header
-                  | Бертель IPA Amarillo
-                .border-box__sub-header
-                  | наш самый первый эль
-                .border-box__separator
-                .border-box__desc
-                  | Ароматный эль на с сильным охмелением <br> cascade, с добавлением цедры апельсина и кориандра                            
-          .beer__slide
-            .beer__col
-              .beer__big-glass
-                img(src="images/big/optimizilla/img-25-min.png")      
-            .beer__col
-              .border-box.border-box--double.border-box--slide
-                include jade/chunks/double_cornels.jade
-                .border-box__header
-                  | Бертель IPA Amarillo
-                .border-box__sub-header
-                  | наш самый первый эль
-                .border-box__separator
-                .border-box__desc
-                  | Ароматный эль на с сильным охмелением <br> cascade, с добавлением цедры апельсина и кориандра                            
-          .beer__slide
-            .beer__col
-              .beer__big-glass
-                img(src="images/big/optimizilla/img-26-min.png")      
-            .beer__col
-              .border-box.border-box--double.border-box--slide
-                include jade/chunks/double_cornels.jade
-                .border-box__header
-                  | Бертель IPA Amarillo
-                .border-box__sub-header
-                  | наш самый первый эль
-                .border-box__separator
-                .border-box__desc
-                  | Ароматный эль на с сильным охмелением <br> cascade, с добавлением цедры апельсина и кориандра                            
-          .beer__rack
-            .beer__small-glass.beer__small-glass--active
-              img(src="images/img-14.png")  
-            .beer__small-glass
-              img(src="images/img-15.png")  
-            .beer__small-glass
-              img(src="images/img-16.png")  
-            .beer__small-glass
-              img(src="images/img-17.png")  
-            .beer__small-glass
-              img(src="images/img-18.png")  
-            .beer__small-glass
-              img(src="images/img-19.png")  
-        .beer__arrow.beer__arrow--right
-          include svg/arrow_right.svg
-    #ancor_process.container.scrollto
-      .process
-        .screen-head
-          .screen-head__rhombus
-            include svg/rhombus.svg
-          h2.screen-head__header 
-            | Процесс приготовления
-          .screen-head__rhombus
-            include svg/rhombus.svg
-          h4.screen-head__sub-header
-            | ничего секретного
-        .process__row
-          .process__box
-            h3 
-              | Стирильность
-              br
-              | производства    
-            .process__icon.process__icon--sterility
-              include svg/screen_3_icon_sterility.svg
-            .process__desc
-              | Процесс варки, ферментациии и <br> разлития пива находятся под <br> строжайшим контролем.  
-          .process__box
-            h3  
-              | Импортные
-              br
-              | ингредиенты    
-            .process__icon.process__icon--import
-              include svg/screen_3_icon_import.svg
-            .process__desc
-              | Солод закупается из Финляндии. <br> Хмель преимущественно <br> Американский. 
-        .process__row
-          .process__rhombus
-            include svg/rhombus.svg
-          .process__order
-            .border-box
-              include jade/chunks/single_cornels.jade
-              .border-box__header
-                | закажи пиво
-              .border-box__sub-header
-                | прямо сейчас   
-          .process__rhombus
-            include svg/rhombus.svg
-        .process__row
-          .process__box
-            h3 
-              | Оригинальные
-              br
-              | рецептуры    
-            .process__icon.process__icon--recept
-              include svg/screen_3_icon_recept.svg
-            .process__desc
-              | Мы варим пиво по оригинальным <br> рецептурам со строгим <br> соблюдением всех нормативов. 
-          .process__box
-            h3  
-              | Натуральное
-              br
-              | сырье    
-            .process__icon.process__icon--natural
-              include svg/screen_3_icon_natural.svg
-            .process__desc
-              | Все ингредиенты имеют <br> растительное происхождение. <br> Без красителей и ароматизаторов.          
-        .process__screen-time                  
-          .screen-head
-            .screen-head__rhombus
-              include svg/rhombus.svg
-            h2.screen-head__header 
-              | сроки изготовления
-            .screen-head__rhombus
-              include svg/rhombus.svg
-            h4.screen-head__sub-header
-              | важнейший аспект подготовки мероприятия
-          .process__row
-            .process__time
-              h4 Варка и ферментация
-              h3 ≈ 2.5 недели                
-            .process__clock
-              include svg/clock.svg              
-            .process__time
-              h4 Карбонизация
-              h3 ≈ 2 недели                
-          .process__row
-            .process__time.process__time--single
-              h3 ≈ 1 месяц          
-              h4 50 % — предоплата
-              h4 50 % — курьеру
+    include /jade/ancor_top.jade
+    include /jade/ancor_beer.jade
+    include /jade/ancor_process.jade
     //- #ancor_about
     .container
       .about
         .about__col
-          #ancor_about.scrollto(data-nav-offset='100')
-            .border-box.border-box--double
-              include jade/chunks/double_cornels.jade
-              .border-box__header
-                | Юристпруденция и пиво
-              .border-box__sub-header
-                | а это вообще совмещают ?
-              .border-box__quote
-                include svg/box_quote.svg
-              .border-box__desc
-                | Пожалуй, это самый популярный вопрос к нам за те полгода, что мы варим пиво в Петербурге.
-            h3.about__frends-header
-              | Мы — команда <br> трех друзей  
-            .about__persons
-              ul
-                li Антон Ильин <span>(слева)</span>
-                li Владимир Миронов <span>(по центру)</span
-                li Евгений Юдин <span>(справа)</span>
-              p
-                | Которые по предварительному сговору решили варить отличное крафтовое пиво для себя и своих друзей. 
-            p.about__paragraph  
-              | Мы профессиональные юристы, пивоварение для нас является хобби, которым мы занимаемся регулярно и с большим желанием, что собственно и отображается в нашем названии. Поэтому в каждом нашем пиве имеется намек на юридические термины и обозначения.  
-            h3.about__header
-              | Касательно продукции
-            p.about__paragraph
-              | Все составляющие для пива, выбираются, в первую очередь, по критерию качества, так как мы уверенны, что только хорошее сырье может дать отличный результат. Рецепты мы переводим с американских форумов, в основном мы варим светлые сорта элей, в частности IPA, APA etc.
-          //- #ancor_contacts
-          #ancor_contacts.scrollto(data-nav-offset='50')
-            h3.about__header
-              | Как заказать?
-            p.about__paragraph
-              | Мы не продаем алкоголь. Мы варим его под Ваш заказ из тех вариантов, которые представлены на нашем сайте. Стили нашего пива постоянно улучшаются и могут быть подстроены под конкретного заказчика. Как все это работает?
-            ul.about__order-list
-              li 
-                <span>1</span>
-                | Вы оставляете заявку на варку конкретного вида пива
-              li
-                <span>2</span>
-                | Мы ее обрабатываем и приступаем к исполнению заказа
-              li
-                <span>3</span> 
-                | Единственное, что вы должны понимать, что процесс приготовления пива небыстрый
-            .about__billet
-              | Чем больше времени – тем пиво вкуснее. <br> Это формула залога качества любого крафтового пива.
-            .about__phone
-              | 8 (981) 844-07-11
-            #ancor_order.scrollto(data-nav-offset='150').about__order
-              .border-box
-                include jade/chunks/single_cornels.jade
-                .border-box__header
-                  | закажи пиво
-                .border-box__sub-header
-                  | прямо сейчас  
-                .about__order-form
-                  .about__next
-                    include svg/arrow_bottom.svg    
-                  form.form
-                    .form__group
-                      input.form__text(type="text", placeholder="Как вас зовут?")   
-                    .form__group
-                      input.form__text(type="text", placeholder="Ваш номер телефона")   
-                    button.form__button(type="submit") СДЕЛАТЬ ЗАКАЗ
-            .about__commercial-note
-              .about__small-attention
-                include svg/small_attention.svg
-              p 
-                | Данный сайт носит исключительно информационно-ознакомительный характер и не преследует коммерческих целей.
-            .about__footer
-              p
-                | © Разработано друзьями из 
-                a(href="http://brabdev.com/" target="_blank") Brabens dev.
+          include /jade/ancor_about.jade
+          include /jade/ancor_contacts.jade
         .about__col
           .about__fixed
             .about__citation-container
@@ -313,10 +47,10 @@ html(lang='en')
                 p
                   | Напоминаем, что чрезмерное употребление алкогольной продукции вредит вашему здоровью!
                 .about__quote
-                  include svg/quote.svg
+                  include /svg/quote.svg
               .about__attention
-                include svg/attention.svg
-            img.about__photo(src="images/big/optimizilla/img-20-min.png")                                               
+                include /svg/attention.svg
+            img.about__photo(src="images/big/optimizilla/photo-brewers-min.png")                                                
     script(src="./scripts/InteractiveParticlesSlideshow/js/modernizr.custom.js")
     script(src="./scripts/InteractiveParticlesSlideshow/js/particlesSlideshow.js")
     script(src="./bower_components/jquery/dist/jquery.min.js")

@@ -22,7 +22,8 @@ gulp.task('build:svg', () => {
 gulp.task('build:jade', () => {
   return gulp.src('./*.jade')
     .pipe(jade({
-      pretty: true
+      pretty: true,
+      basedir: __dirname
     }))
     .pipe(gulp.dest('./'))
     .pipe(browserSync.stream())
