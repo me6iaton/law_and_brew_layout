@@ -164,4 +164,18 @@ $(function () {
   $inputName.keydown(checkEmptyInputValue)
   $inputPhone.keydown(checkEmptyInputValue)
 
+  var $agePopup = $("#age-popup");
+  if (document.cookie.indexOf("age18=1") === -1) {
+    $agePopup
+      .on("click", ".age-popup__answer--yes", function() {
+        document.cookie = "age18=1; path=/";
+        console.log(document.cookie);
+        $agePopup.detach();
+      })
+      .show();
+
+  } else {
+    $agePopup.detach();
+  }
+
 });
