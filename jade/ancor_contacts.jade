@@ -1,19 +1,17 @@
 #ancor_contacts.scrollto(data-nav-offset='50')
   h3.about__header
     | По всем вопросам
-  p.about__paragraph
+  p.paragraph.about__paragraph
     | Для нас пивоварение - это хобби, однако, если у вас появились интересные предложения и вопросы, вы можете связаться с нами через <a href="#go_to_form"> форму </a> на сайте.
   ul.about__order-list
     
   .about__billet
-    p
-        | Чем больше выдерживается пиво - <br> тем вкуснее и насыщеннее вкус.
+    p.center Чем больше выдерживается пиво - <br> тем вкуснее и насыщеннее вкус.
   #ancor_order.scrollto(data-nav-offset='150').about__order
     .border-box
       include /jade/chunks/single_cornels.jade
       .border-box__header
         | хочу ваш эль <a name="go_to_form"></a>
-      .border-box__sub-header 
       .about__order-form
         .about__next
           include /svg/arrow_bottom.svg    
@@ -27,9 +25,9 @@
   .about__commercial-note
     .about__small-attention
         include /svg/small_attention.svg
-    p 
+    p.paragraph 
       | Данный сайт носит исключительно информационно-ознакомительный характер и не является рекламой.
   .about__footer
-    p
+    p.paragraph
       | © Разработано друзьями из 
       a(href="http://brabdev.com/" target="_blank") Brabens dev.

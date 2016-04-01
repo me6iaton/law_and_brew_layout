@@ -94,6 +94,18 @@ $(function () {
     })
   };
 
+  $('#our_beers').click(function(e){
+    e.preventDefault()
+    var toScroll = $('#ancor_beer').offset().top - 210 + 'px';
+    console.log(toScroll);
+    $('html, body').stop().animate({
+      scrollTop: toScroll
+    }, {
+      duration: 350,
+      easing: 'swing'
+    });
+  })
+
   // order form
   $('.process .border-box').eq(0).click(function(e){
     var toScroll = $('.about__order .about__order-form').offset().top - 590 + 'px';

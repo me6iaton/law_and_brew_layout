@@ -1,3 +1,7 @@
+html
+  // background-image: url('images/bg.jpg')
+  background-color: #1b0c0b
+
 body
   background-image: url('images/bg.jpg')
   background-position: 50% 0%
@@ -8,8 +12,28 @@ body
   color: $text-color
   font-family: 'Gotham Pro'
   font-size: 16px
+  z-index: 10
+
 a
   color: $accent-color
   text-decoration: none
   &:hover
     text-decoration: underline
+
+html, body
+  overflow-x: scroll
+  box-sizing: border-box
+  min-width: 1024px
+  margin: 0 auto
+
+body
+  max-width: 1900px
+
+@media (min-width: 1900px)
+  html
+    background-image: url('images/bg.jpg')
+    background-repeat: repeat-y
+    background-size: 100%
+  body
+    background-image: none
+    position: static
