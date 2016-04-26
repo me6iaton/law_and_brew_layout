@@ -814,6 +814,7 @@ body {
 }
 
 .menu__fixed {
+  transform: translate3d(0, 0, 0);
   width: 100%;
 }
 
@@ -967,6 +968,7 @@ body {
   top: 130px;
   left: 50%;
   margin-left: -200px;
+  transform: translate3d(0, 0, 0);
 }
 
 .top__next {
@@ -1669,6 +1671,7 @@ body {
 
 .about__fixed {
   position: relative;
+  transform: translate3d(0, 0, 0);
 }
 
 .about__fixed.affix {
