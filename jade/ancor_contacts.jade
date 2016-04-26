@@ -16,11 +16,12 @@
         .about__next
           include /svg/arrow_bottom.svg    
         form.form
-          input(type="hidden", name="_subject", value="Новый заказ с лендинга")
           .form__group
             input.form__text(type="text", name="name", placeholder="Как вас зовут?")   
           .form__group
             input.form__text(type="text", name="phone", placeholder="Ваш номер телефона")   
+          .form__group.form__group--gotcha
+            input.form__text(type="text", name="_gotcha")
           button.form__button(type="submit") ОТПРАВИТЬ
   .about__commercial-note
     .about__small-attention

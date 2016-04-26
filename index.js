@@ -124,9 +124,11 @@ $(function () {
     $this.find('.about__order-form').addClass('about__order-form--active')
   });
 
-  var $formContainer = $('.about__order .about__order-form')
-  var $inputName =  $formContainer.find("input[name='name']")
-  var $inputPhone = $formContainer.find("input[name='phone']")
+  var $formContainer = $('.about__order .about__order-form');
+  var $inputName =  $formContainer.find("input[name='name']");
+  var $inputPhone = $formContainer.find("input[name='phone']");
+  var $gotcha = $formContainer.find("input[name='_gotcha']");
+
   $('.about__order form').submit(function(e){
     e.preventDefault()
     $this = $(this);
@@ -141,11 +143,13 @@ $(function () {
     }
     if(valid) {
       $.ajax({
-          url: "https://formspree.io/lawandbrew@gmail.com",
+          url: "https://formspree.io/9272332@gmail.com",
           method: "POST",
           data: {
             name: $inputName.val(),
             phone: $inputPhone.val(),
+            _subject: "Новая заявка с лендинга",
+            _gotcha: $gotcha.val()
           },
           dataType: "json"
       }).done(function() {
