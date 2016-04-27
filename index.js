@@ -143,7 +143,7 @@ $(function () {
     }
     if(valid) {
       $.ajax({
-          url: "https://formspree.io/9272332@gmail.com",
+          url: "https://formspree.io/lawandbrew@gmail.com",
           method: "POST",
           data: {
             name: $inputName.val(),
